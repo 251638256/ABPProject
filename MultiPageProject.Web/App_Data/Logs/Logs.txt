@@ -6474,3 +6474,99 @@ WARN  2017-07-06 21:49:21,483 [9    ] Abp.Logging.LogHelper                    -
 WARN  2017-07-06 21:49:21,634 [25   ] Abp.Logging.LogHelper                    - Can not find 'Account' in localization source 'MultiPageProject'!
 DEBUG 2017-07-06 21:49:21,976 [15   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"a7d95c38-e938-4719-b954-bbd9f75245cf","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-07-06T21:49:21.9760819+08:00","Properties":{}}
 DEBUG 2017-07-06 21:49:21,986 [25   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: a7d95c38-e938-4719-b954-bbd9f75245cf
+DEBUG 2017-07-06 21:49:42,484 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-07-06 21:49:42,495 [1    ] Abp.Modules.AbpModuleManager             - Found 16 ABP modules in total.
+DEBUG 2017-07-06 21:49:42,500 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MultiPageProject.Web.MultiPageProjectWebModule, MultiPageProject.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 21:49:42,502 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MultiPageProject.MultiPageProjectDataModule, MultiPageProject.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 21:49:42,502 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 21:49:42,502 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 21:49:42,502 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 21:49:42,502 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 21:49:42,502 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 21:49:42,502 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MultiPageProject.MultiPageProjectCoreModule, MultiPageProject.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 21:49:42,503 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MultiPageProject.MultiPageProjectApplicationModule, MultiPageProject.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 21:49:42,503 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 21:49:42,503 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MultiPageProject.Api.MultiPageProjectWebApiModule, MultiPageProject.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 21:49:42,503 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 21:49:42,503 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 21:49:42,503 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 21:49:42,503 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 21:49:42,503 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 21:49:42,505 [1    ] Abp.Modules.AbpModuleManager             - 16 modules loaded.
+DEBUG 2017-07-06 21:49:42,629 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-07-06 21:49:42,629 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-07-06 21:49:42,629 [1    ] o.Configuration.LanguageManagementConfig - Converted MultiPageProject (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-07-06 21:49:42,629 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-07-06 21:49:42,888 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: MultiPageProject.EntityFramework.MultiPageProjectDbContext, MultiPageProject.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 21:49:43,826 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-07-06 21:49:43,834 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-07-06 21:49:43,838 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-07-06 21:49:43,840 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: MultiPageProject
+DEBUG 2017-07-06 21:49:43,841 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-07-06 21:49:43,896 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-07-06 21:49:43,949 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 7 classes define auto mapping attributes
+DEBUG 2017-07-06 21:49:43,949 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MultiPageProject.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-07-06 21:49:43,951 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MultiPageProject.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-07-06 21:49:43,951 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MultiPageProject.Users.Dto.CreateUserInput
+DEBUG 2017-07-06 21:49:43,951 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MultiPageProject.Users.Dto.UserListDto
+DEBUG 2017-07-06 21:49:43,951 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MultiPageProject.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2017-07-06 21:49:43,952 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MultiPageProject.MultiTenancy.Dto.TenantListDto
+DEBUG 2017-07-06 21:49:43,952 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MultiPageProject.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-07-06 21:49:44,954 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MultiPageProject.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-07-06 21:49:44,955 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MultiPageProject.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-07-06 21:49:44,956 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MultiPageProject.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-07-06 21:49:44,957 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MultiPageProject.MyTask.ITaskAppService' with service name 'app/task'.
+DEBUG 2017-07-06 21:49:44,957 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MultiPageProject.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2017-07-06 21:49:45,384 [12   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected (on reconnected event): {"ConnectionId":"881ba5b5-09ca-40db-99c3-f44801d73446","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-07-06T21:49:45.3383288+08:00","Properties":{}}
+DEBUG 2017-07-06 21:49:45,384 [11   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected (on reconnected event): {"ConnectionId":"a7d95c38-e938-4719-b954-bbd9f75245cf","IpAddress":"127.0.0.1","TenantId":null,"UserId":1,"ConnectTime":"2017-07-06T21:49:45.334319+08:00","Properties":{}}
+WARN  2017-07-06 21:49:49,299 [10   ] Abp.Logging.LogHelper                    - Can not find 'Account' in localization source 'MultiPageProject'!
+WARN  2017-07-06 21:49:50,647 [10   ] Abp.Logging.LogHelper                    - Can not find 'Account' in localization source 'MultiPageProject'!
+DEBUG 2017-07-06 21:49:51,051 [11   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"c40b873a-ecfc-4774-a5c8-195f1c4c4743","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-07-06T21:49:51.0515753+08:00","Properties":{}}
+DEBUG 2017-07-06 21:49:51,094 [10   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: c40b873a-ecfc-4774-a5c8-195f1c4c4743
+DEBUG 2017-07-06 21:50:00,875 [15   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: c40b873a-ecfc-4774-a5c8-195f1c4c4743
+WARN  2017-07-06 21:50:03,410 [15   ] Abp.Logging.LogHelper                    - Can not find 'Account' in localization source 'MultiPageProject'!
+DEBUG 2017-07-06 21:50:03,449 [5    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: a7d95c38-e938-4719-b954-bbd9f75245cf
+WARN  2017-07-06 21:50:03,689 [5    ] Abp.Logging.LogHelper                    - Can not find 'Account' in localization source 'MultiPageProject'!
+DEBUG 2017-07-06 21:50:03,996 [11   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"20ca2480-8724-48e3-8b75-3d1a48922cd4","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-07-06T21:50:03.9962845+08:00","Properties":{}}
+DEBUG 2017-07-06 21:50:04,013 [12   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 20ca2480-8724-48e3-8b75-3d1a48922cd4
+WARN  2017-07-06 21:50:05,037 [5    ] Abp.Logging.LogHelper                    - Can not find 'Account' in localization source 'MultiPageProject'!
+DEBUG 2017-07-06 21:50:05,075 [5    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 20ca2480-8724-48e3-8b75-3d1a48922cd4
+WARN  2017-07-06 21:50:05,316 [12   ] Abp.Logging.LogHelper                    - Can not find 'Account' in localization source 'MultiPageProject'!
+DEBUG 2017-07-06 21:50:05,614 [12   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"b7967375-a871-4b71-8fb3-00f14543ca16","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-07-06T21:50:05.6144715+08:00","Properties":{}}
+DEBUG 2017-07-06 21:50:05,627 [11   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: b7967375-a871-4b71-8fb3-00f14543ca16
+WARN  2017-07-06 21:50:09,673 [5    ] Abp.Logging.LogHelper                    - Can not find 'Account' in localization source 'MultiPageProject'!
+DEBUG 2017-07-06 21:50:09,712 [10   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: b7967375-a871-4b71-8fb3-00f14543ca16
+WARN  2017-07-06 21:50:09,889 [18   ] Abp.Logging.LogHelper                    - Can not find 'Account' in localization source 'MultiPageProject'!
+DEBUG 2017-07-06 21:50:10,168 [21   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"9ea045a0-2a44-4015-b5af-305fa9f869aa","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-07-06T21:50:10.16869+08:00","Properties":{}}
+DEBUG 2017-07-06 21:50:10,174 [11   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 9ea045a0-2a44-4015-b5af-305fa9f869aa
+WARN  2017-07-06 21:50:11,340 [15   ] Abp.Logging.LogHelper                    - Can not find 'Account' in localization source 'MultiPageProject'!
+DEBUG 2017-07-06 21:50:11,388 [5    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 9ea045a0-2a44-4015-b5af-305fa9f869aa
+WARN  2017-07-06 21:50:11,537 [11   ] Abp.Logging.LogHelper                    - Can not find 'Account' in localization source 'MultiPageProject'!
+DEBUG 2017-07-06 21:50:11,780 [5    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"86cc5e53-dfaa-48e4-a9ab-4fc0c0ab958a","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-07-06T21:50:11.7804766+08:00","Properties":{}}
+DEBUG 2017-07-06 21:50:11,784 [18   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 86cc5e53-dfaa-48e4-a9ab-4fc0c0ab958a
+WARN  2017-07-06 21:50:12,581 [5    ] Abp.Logging.LogHelper                    - Can not find 'Account' in localization source 'MultiPageProject'!
+DEBUG 2017-07-06 21:50:12,631 [11   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 86cc5e53-dfaa-48e4-a9ab-4fc0c0ab958a
+WARN  2017-07-06 21:50:12,788 [21   ] Abp.Logging.LogHelper                    - Can not find 'Account' in localization source 'MultiPageProject'!
+DEBUG 2017-07-06 21:50:13,002 [11   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"17609ce5-4098-49ba-92ab-f8956475d74b","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-07-06T21:50:13.002726+08:00","Properties":{}}
+DEBUG 2017-07-06 21:50:13,018 [22   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 17609ce5-4098-49ba-92ab-f8956475d74b
+WARN  2017-07-06 21:50:14,045 [18   ] Abp.Logging.LogHelper                    - Can not find 'Account' in localization source 'MultiPageProject'!
+DEBUG 2017-07-06 21:50:14,091 [19   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 17609ce5-4098-49ba-92ab-f8956475d74b
+WARN  2017-07-06 21:50:14,243 [19   ] Abp.Logging.LogHelper                    - Can not find 'Account' in localization source 'MultiPageProject'!
+DEBUG 2017-07-06 21:50:14,485 [22   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"84450443-c5df-493f-8d2d-085e7add9ee4","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-07-06T21:50:14.4856708+08:00","Properties":{}}
+DEBUG 2017-07-06 21:50:14,501 [11   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 84450443-c5df-493f-8d2d-085e7add9ee4
+WARN  2017-07-06 21:50:22,375 [19   ] Abp.Logging.LogHelper                    - Can not find 'Account' in localization source 'MultiPageProject'!
+DEBUG 2017-07-06 21:50:22,418 [22   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 84450443-c5df-493f-8d2d-085e7add9ee4
+WARN  2017-07-06 21:50:22,624 [20   ] Abp.Logging.LogHelper                    - Can not find 'Account' in localization source 'MultiPageProject'!
+DEBUG 2017-07-06 21:50:22,879 [26   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"652b5fc4-40e0-43db-9833-9b09368fb0d1","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-07-06T21:50:22.8790164+08:00","Properties":{}}
+DEBUG 2017-07-06 21:50:22,906 [7    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 652b5fc4-40e0-43db-9833-9b09368fb0d1
+DEBUG 2017-07-06 21:50:23,406 [27   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 881ba5b5-09ca-40db-99c3-f44801d73446
+WARN  2017-07-06 21:50:28,720 [11   ] Abp.Logging.LogHelper                    - Can not find 'Account' in localization source 'MultiPageProject'!
+DEBUG 2017-07-06 21:50:28,753 [21   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 652b5fc4-40e0-43db-9833-9b09368fb0d1
+WARN  2017-07-06 21:50:28,934 [20   ] Abp.Logging.LogHelper                    - Can not find 'Account' in localization source 'MultiPageProject'!
+DEBUG 2017-07-06 21:50:29,147 [5    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"55906dc6-82fb-4e9c-a3c8-bbdb9a558402","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-07-06T21:50:29.1478844+08:00","Properties":{}}
+DEBUG 2017-07-06 21:50:29,160 [21   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 55906dc6-82fb-4e9c-a3c8-bbdb9a558402
+WARN  2017-07-06 21:50:29,611 [20   ] Abp.Logging.LogHelper                    - Can not find 'Account' in localization source 'MultiPageProject'!
+DEBUG 2017-07-06 21:50:29,653 [18   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 55906dc6-82fb-4e9c-a3c8-bbdb9a558402
+WARN  2017-07-06 21:50:29,837 [27   ] Abp.Logging.LogHelper                    - Can not find 'Account' in localization source 'MultiPageProject'!
+DEBUG 2017-07-06 21:50:30,040 [19   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"7a962b80-93e9-4d47-8184-a044ee403ed1","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-07-06T21:50:30.0405053+08:00","Properties":{}}
+DEBUG 2017-07-06 21:50:30,053 [15   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 7a962b80-93e9-4d47-8184-a044ee403ed1

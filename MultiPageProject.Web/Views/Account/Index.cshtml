@@ -30,9 +30,9 @@
                     <td>@user.IsActive</td>
                     <td>@string.Join(",", user.Roles.Select(c => c.RoleId))</td>
                     <td>
-                        @using (Html.BeginForm("Delete", "Account", new { id = user.Id })) {
-                            @Html.ActionLink("Edit", "Edit", new { id = user.Id }, new { @class = "btn btn-primary btn-xs" })
-                            @Html.ActionLink("EditRoles", "EditRoles", new { id = user.Id }, new { @class = "btn btn-primary btn-xs" })
+                        @Html.ActionLink("Edit", "Edit", new { id = user.Id }, new { @class = "btn btn-primary btn-xs", style = "text-decoration:none;" })
+                        @Html.ActionLink("EditRoles", "EditRoles", new { id = user.Id }, new { @class = "btn btn-primary btn-xs", style = "text-decoration:none;" })
+                        @using (Html.BeginForm("Delete", "Account", new { id = user.Id }, FormMethod.Post, new { style = "display:inline;" })) {
                             <button class="btn btn-danger btn-xs" type="submit">
                                 Delete
                             </button>
@@ -42,26 +42,28 @@
             }
         }
     </table>
-
-    <div style="padding-top:50px;"></div>
-    <table class="table table-striped">
-        <tr>
-            <th>ID</th>
-            <th>DisplayName</th>
-            <th>TenantId</th>
-        </tr>
-        @if (roles.Count() == 0) {
-            <tr><td colspan="4" class="text-center">No Any Roles</td></tr>
-        }
-        else {
-            foreach (var role in roles) {
-                <tr>
-                    <td>@role.Id</td>
-                    <td>@role.DisplayName</td>
-                    <td>@role.TenantId</td>
-                </tr>
-            }
-        }
-    </table>
 </div>
-@Html.ActionLink("Create", "Create", null, new { @class = "btn btn-primary" })
+
+<div class="panel panel-info">
+    <div class="panel-heading">Roles</div>
+        <table class="table table-striped">
+            <tr>
+                <th>ID</th>
+                <th>DisplayName</th>
+                <th>TenantId</th>
+            </tr>
+            @if (roles.Count() == 0) {
+                <tr><td colspan="4" class="text-center">No Any Roles</td></tr>
+            } else {
+                foreach (var role in roles) {
+                    <tr>
+                        <td>@role.Id</td>
+                        <td>@role.DisplayName</td>
+                        <td>@role.TenantId</td>
+                    </tr>
+                }
+            }
+        </table>
+</div>
+@Html.ActionLink("Create User", "Create", null, new { @class = "btn btn-primary" })
+@Html.ActionLink("Create Role", "Create", null, new { @class = "btn btn-warning" })
