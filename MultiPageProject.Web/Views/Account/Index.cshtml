@@ -1,0 +1,66 @@
+﻿@using MultiPageProject.Users
+@using MultiPageProject.Authorization.Roles
+@model IEnumerable<User>
+@{
+    ViewBag.Title = "Index";
+    List<Role> roles = ViewData["Roles"] as List<Role>;
+}
+
+<div style="padding-top:25px;"></div>
+<div class="panel panel-primary">
+    <div class="panel-heading">
+        User Accounts
+    </div>
+    <table class="table table-striped">
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>IsActive</th>
+            <th>Role</th>
+            <th></th>
+        </tr>
+        @if (Model.Count() == 0) {
+            <tr><td colspan="4" class="text-center">No User Accounts</td></tr>
+        }
+        else {
+            foreach (var user in Model) {
+                <tr>
+                    <td>@user.Id</td>
+                    <td>@user.UserName</td>
+                    <td>@user.IsActive</td>
+                    <td>@string.Join(",", user.Roles.Select(c => c.RoleId))</td>
+                    <td>
+                        @using (Html.BeginForm("Delete", "Account", new { id = user.Id })) {
+                            @Html.ActionLink("Edit", "Edit", new { id = user.Id }, new { @class = "btn btn-primary btn-xs" })
+                            <button class="btn btn-danger btn-xs" type="submit">
+                                Delete
+                            </button>
+                        }
+                    </td>
+                </tr>
+            }
+        }
+    </table>
+
+    <div style="padding-top:50px;"></div>
+    <table class="table table-striped">
+        <tr>
+            <th>ID</th>
+            <th>DisplayName</th>
+            <th>TenantId</th>
+        </tr>
+        @if (roles.Count() == 0) {
+            <tr><td colspan="4" class="text-center">No Any Roles</td></tr>
+        }
+        else {
+            foreach (var role in roles) {
+                <tr>
+                    <td>@role.Id</td>
+                    <td>@role.DisplayName</td>
+                    <td>@role.TenantId</td>
+                </tr>
+            }
+        }
+    </table>
+</div>
+@Html.ActionLink("Create", "Create", null, new { @class = "btn btn-primary" })
