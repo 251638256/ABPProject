@@ -521,11 +521,33 @@ namespace MultiPageProject.Web.Controllers
             }
         }
 
+        
+        public async Task<ActionResult> EditRoles(long id) {
+            List<RoleChecked> rols = new List<RoleChecked>();
+
+            User user = await _userManager.FindByIdAsync(id);
+            if (user == null)
+                throw new ArgumentNullException("找不到用户!");
+
+            var roles = _roleManager.Roles.ToList();
+            var userRoles = user.Roles.Select(c => c.RoleId);
+
+            foreach (var item in roles) {
+                rols.Add(new RoleChecked() { Role = item, Checked = userRoles.Contains(item.Id) });
+            }
+
+            EditRolesEditViewModel viewModel = new EditRolesEditViewModel() { ID = id, RoleStatus = rols };
+            return View(viewModel);
+        }
+
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
         public ActionResult EditRoles() {
             return View();
         }
 
-        
+
         #endregion
     }
 }

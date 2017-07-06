@@ -1,4 +1,5 @@
-﻿
+﻿@using MultiPageProject.Web.Models.Account
+@model EditRolesEditViewModel
 @{
     ViewBag.Title = "EditRoles";
 }
@@ -10,31 +11,26 @@
         Roles
     </div>
 
-@using(Html.BeginForm()) { 
+@using(Html.BeginForm()) {
+    @Html.AntiForgeryToken()
     <table class="table">
         <thead>
             <tr>
                 <th>ID</th>
                 <th>Role DisplayName</th>
-                <th>Status</th>
+                <th>IsDefault</th>
+                <th>Checked</th>
             </tr>
         </thead>
         <tbody>
-            <tr>
-                <td>1</td>
-                <td>Admin</td>
-                <td><input type="checkbox" value="" /></td>
-            </tr>
-            <tr>
-                <td>2</td>
-                <td>User</td>
-                <td><input type="checkbox" checked value="" /></td>
-            </tr>
-            <tr>
-                <td>3</td>
-                <td>Visitor</td>
-                <td><input type="checkbox" value="" /></td>
-            </tr>
+            @foreach (var item in Model.RoleStatus) {
+                <tr>
+                    <td>@item.Role.Id</td>
+                    <td>@item.Role.DisplayName</td>
+                    <td>@item.Role.IsDefault</td>
+                    <td><input type="checkbox" @item.CheckedValue /></td>
+                </tr>
+            }
         </tbody>
     </table>
     @Html.ActionLink("Save", "EditRoles", null,new { @class = "btn btn-warning" })
