@@ -520,6 +520,12 @@ namespace MultiPageProject.Web.Controllers
                 return RedirectToAction("/Error");
             }
         }
+
+        public ActionResult EditRoles() {
+            return View();
+        }
+
+        
         #endregion
     }
 }

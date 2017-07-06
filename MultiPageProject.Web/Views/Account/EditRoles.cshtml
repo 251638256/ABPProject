@@ -1,0 +1,43 @@
+﻿
+@{
+    ViewBag.Title = "EditRoles";
+}
+
+<h2>[currentUserName]</h2>
+
+<div class="panel panel-info">
+    <div class="panel-heading">
+        Roles
+    </div>
+
+@using(Html.BeginForm()) { 
+    <table class="table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Role DisplayName</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Admin</td>
+                <td><input type="checkbox" value="" /></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>User</td>
+                <td><input type="checkbox" checked value="" /></td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Visitor</td>
+                <td><input type="checkbox" value="" /></td>
+            </tr>
+        </tbody>
+    </table>
+    @Html.ActionLink("Save", "EditRoles", null,new { @class = "btn btn-warning" })
+    @Html.ActionLink("Cancel", "Index", null, new { @class = "btn btn-info" })
+}
+</div>

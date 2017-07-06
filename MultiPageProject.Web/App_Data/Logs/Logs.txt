@@ -3022,3 +3022,1034 @@ DEBUG 2017-07-06 15:36:43,287 [36   ] Abp.Modules.AbpModuleManager             -
 DEBUG 2017-07-06 15:36:43,288 [36   ] Abp.BackgroundJobs.BackgroundJobManager  - Stop background worker: Abp.BackgroundJobs.BackgroundJobManager
 DEBUG 2017-07-06 15:36:43,288 [36   ] Abp.BackgroundJobs.BackgroundJobManager  - WaitToStop background worker: Abp.BackgroundJobs.BackgroundJobManager
 DEBUG 2017-07-06 15:36:43,288 [36   ] Abp.Modules.AbpModuleManager             - Shutting down completed.
+DEBUG 2017-07-06 15:36:53,258 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-07-06 15:36:53,273 [1    ] Abp.Modules.AbpModuleManager             - Found 16 ABP modules in total.
+DEBUG 2017-07-06 15:36:53,282 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MultiPageProject.Web.MultiPageProjectWebModule, MultiPageProject.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 15:36:53,284 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MultiPageProject.MultiPageProjectDataModule, MultiPageProject.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 15:36:53,285 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 15:36:53,285 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 15:36:53,286 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 15:36:53,286 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 15:36:53,286 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 15:36:53,286 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MultiPageProject.MultiPageProjectCoreModule, MultiPageProject.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 15:36:53,286 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MultiPageProject.MultiPageProjectApplicationModule, MultiPageProject.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 15:36:53,287 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 15:36:53,287 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MultiPageProject.Api.MultiPageProjectWebApiModule, MultiPageProject.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 15:36:53,287 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 15:36:53,287 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 15:36:53,287 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 15:36:53,287 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 15:36:53,287 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 15:36:53,291 [1    ] Abp.Modules.AbpModuleManager             - 16 modules loaded.
+DEBUG 2017-07-06 15:36:53,566 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-07-06 15:36:53,566 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-07-06 15:36:53,566 [1    ] o.Configuration.LanguageManagementConfig - Converted MultiPageProject (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-07-06 15:36:53,566 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-07-06 15:36:54,080 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: MultiPageProject.EntityFramework.MultiPageProjectDbContext, MultiPageProject.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 15:36:55,710 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-07-06 15:36:55,716 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-07-06 15:36:55,725 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-07-06 15:36:55,726 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: MultiPageProject
+DEBUG 2017-07-06 15:36:55,727 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-07-06 15:36:55,804 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-07-06 15:36:55,867 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 7 classes define auto mapping attributes
+DEBUG 2017-07-06 15:36:55,867 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MultiPageProject.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-07-06 15:36:55,870 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MultiPageProject.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-07-06 15:36:55,870 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MultiPageProject.Users.Dto.CreateUserInput
+DEBUG 2017-07-06 15:36:55,871 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MultiPageProject.Users.Dto.UserListDto
+DEBUG 2017-07-06 15:36:55,871 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MultiPageProject.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2017-07-06 15:36:55,871 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MultiPageProject.MultiTenancy.Dto.TenantListDto
+DEBUG 2017-07-06 15:36:55,871 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MultiPageProject.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-07-06 15:36:57,436 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MultiPageProject.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-07-06 15:36:57,438 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MultiPageProject.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-07-06 15:36:57,440 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MultiPageProject.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-07-06 15:36:57,441 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MultiPageProject.MyTask.ITaskAppService' with service name 'app/task'.
+DEBUG 2017-07-06 15:36:57,442 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MultiPageProject.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2017-07-06 15:36:58,070 [33   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected (on reconnected event): {"ConnectionId":"b119b32d-8f72-4d95-ab0c-0ee440c95707","IpAddress":"::1","TenantId":1,"UserId":7,"ConnectTime":"2017-07-06T15:36:58.008305+08:00","Properties":{}}
+DEBUG 2017-07-06 15:37:08,960 [37   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: b119b32d-8f72-4d95-ab0c-0ee440c95707
+DEBUG 2017-07-06 15:37:09,653 [19   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"6a20325e-8fbb-48e8-841d-0c2b438b4a85","IpAddress":"::1","TenantId":1,"UserId":7,"ConnectTime":"2017-07-06T15:37:09.6535095+08:00","Properties":{}}
+DEBUG 2017-07-06 15:37:09,679 [37   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 6a20325e-8fbb-48e8-841d-0c2b438b4a85
+DEBUG 2017-07-06 15:37:18,158 [36   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"ed873dc7-2e29-4f2b-8843-d86437d1dbb7","IpAddress":"::1","TenantId":null,"UserId":null,"ConnectTime":"2017-07-06T15:37:18.1580056+08:00","Properties":{}}
+DEBUG 2017-07-06 15:37:18,164 [19   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: ed873dc7-2e29-4f2b-8843-d86437d1dbb7
+DEBUG 2017-07-06 15:37:23,942 [7    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"19d250ef-26aa-4e67-ae5b-15ff6db5c74f","IpAddress":"::1","TenantId":1,"UserId":3,"ConnectTime":"2017-07-06T15:37:23.9428167+08:00","Properties":{}}
+DEBUG 2017-07-06 15:37:23,949 [33   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 19d250ef-26aa-4e67-ae5b-15ff6db5c74f
+ERROR 2017-07-06 15:37:26,859 [36   ] eProject.Web.Controllers.TasksController - 执行处理程序“System.Web.Mvc.HttpHandlerUtil+ServerExecuteHttpHandlerAsyncWrapper”的子请求时出错。
+System.Web.HttpException (0x80004005): 执行处理程序“System.Web.Mvc.HttpHandlerUtil+ServerExecuteHttpHandlerAsyncWrapper”的子请求时出错。 ---> Abp.Authorization.AbpAuthorizationException: 您没有权限进行此操作,您至少需要下列权限的其中一项: Users
+   在 Abp.Authorization.PermissionCheckerExtensions.<AuthorizeAsync>d__9.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   在 System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   在 System.Threading.Tasks.Task.Execute()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   在 Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo)
+   在 Abp.Authorization.AuthorizationInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformSyncUow(IInvocation invocation, UnitOfWorkOptions options)
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options)
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Auditing.AuditingInterceptor.PerformSyncAuditing(IInvocation invocation, AuditInfo auditInfo)
+   在 Abp.Auditing.AuditingInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Runtime.Validation.Interception.ValidationInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.UserAppServiceProxy.GetUsers2()
+   在 MultiPageProject.Web.Controllers.TasksController.Create() 位置 D:\ABP\MultiPageProject\MultiPageProject.Web\Controllers\TasksController.cs:行号 41
+   在 lambda_method(Closure , ControllerBase , Object[] )
+   在 System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   在 System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<BeginInvokeSynchronousActionMethod>b__39(IAsyncResult asyncResult, ActionInvocation innerInvokeState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`2.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<BeginExecute>b__15(IAsyncResult asyncResult, Controller controller)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   在 System.Web.Mvc.HttpHandlerUtil.ServerExecuteHttpHandlerAsyncWrapper.<>c__DisplayClassa.<EndProcessRequest>b__9()
+   在 System.Web.Mvc.HttpHandlerUtil.ServerExecuteHttpHandlerWrapper.<>c__DisplayClass4.<Wrap>b__3()
+   在 System.Web.Mvc.HttpHandlerUtil.ServerExecuteHttpHandlerWrapper.Wrap[TResult](Func`1 func)
+   在 System.Web.Mvc.HttpHandlerUtil.ServerExecuteHttpHandlerWrapper.Wrap(Action action)
+   在 System.Web.Mvc.HttpHandlerUtil.ServerExecuteHttpHandlerAsyncWrapper.EndProcessRequest(IAsyncResult result)
+   在 System.Web.HttpServerUtility.ExecuteInternal(IHttpHandler handler, TextWriter writer, Boolean preserveForm, Boolean setPreviousPage, VirtualPath path, VirtualPath filePath, String physPath, Exception error, String queryStringOverride)
+   在 System.Web.HttpServerUtility.ExecuteInternal(IHttpHandler handler, TextWriter writer, Boolean preserveForm, Boolean setPreviousPage, VirtualPath path, VirtualPath filePath, String physPath, Exception error, String queryStringOverride)
+   在 System.Web.HttpServerUtility.Execute(IHttpHandler handler, TextWriter writer, Boolean preserveForm, Boolean setPreviousPage)
+   在 System.Web.HttpServerUtility.Execute(IHttpHandler handler, TextWriter writer, Boolean preserveForm)
+   在 System.Web.HttpServerUtilityWrapper.Execute(IHttpHandler handler, TextWriter writer, Boolean preserveForm)
+   在 System.Web.Mvc.Html.ChildActionExtensions.ActionHelper(HtmlHelper htmlHelper, String actionName, String controllerName, RouteValueDictionary routeValues, TextWriter textWriter)
+   在 System.Web.Mvc.Html.ChildActionExtensions.Action(HtmlHelper htmlHelper, String actionName, String controllerName, RouteValueDictionary routeValues)
+   在 System.Web.Mvc.Html.ChildActionExtensions.Action(HtmlHelper htmlHelper, String actionName)
+   在 ASP._Page_Views_Tasks_Index_cshtml.Execute() 位置 d:\ABP\MultiPageProject\MultiPageProject.Web\Views\Tasks\Index.cshtml:行号 36
+   在 System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   在 System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   在 System.Web.WebPages.StartPage.RunPage()
+   在 System.Web.WebPages.StartPage.ExecutePageHierarchy()
+   在 System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   在 System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   在 System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+DEBUG 2017-07-06 15:37:26,889 [33   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 19d250ef-26aa-4e67-ae5b-15ff6db5c74f
+DEBUG 2017-07-06 15:37:29,150 [7    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"cc744cc0-dc15-4558-bbad-a7e8b958cc1c","IpAddress":"::1","TenantId":1,"UserId":3,"ConnectTime":"2017-07-06T15:37:29.1509806+08:00","Properties":{}}
+DEBUG 2017-07-06 15:37:29,156 [35   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: cc744cc0-dc15-4558-bbad-a7e8b958cc1c
+DEBUG 2017-07-06 15:37:31,337 [27   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: cc744cc0-dc15-4558-bbad-a7e8b958cc1c
+DEBUG 2017-07-06 15:37:31,708 [27   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"08259f41-c28c-4025-96be-b161c7fcccf2","IpAddress":"::1","TenantId":1,"UserId":3,"ConnectTime":"2017-07-06T15:37:31.7082146+08:00","Properties":{}}
+DEBUG 2017-07-06 15:37:31,734 [36   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 08259f41-c28c-4025-96be-b161c7fcccf2
+DEBUG 2017-07-06 15:37:41,292 [34   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 08259f41-c28c-4025-96be-b161c7fcccf2
+DEBUG 2017-07-06 15:37:41,635 [36   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"968a83ca-c390-46e4-90cc-e9aabd73cabb","IpAddress":"::1","TenantId":1,"UserId":3,"ConnectTime":"2017-07-06T15:37:41.6352922+08:00","Properties":{}}
+DEBUG 2017-07-06 15:37:41,640 [35   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 968a83ca-c390-46e4-90cc-e9aabd73cabb
+DEBUG 2017-07-06 15:37:47,934 [33   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 6a20325e-8fbb-48e8-841d-0c2b438b4a85
+DEBUG 2017-07-06 15:37:53,862 [7    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 968a83ca-c390-46e4-90cc-e9aabd73cabb
+DEBUG 2017-07-06 15:37:54,225 [37   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"a8f850a3-20fb-458f-b5d9-2280af4203af","IpAddress":"::1","TenantId":1,"UserId":3,"ConnectTime":"2017-07-06T15:37:54.22522+08:00","Properties":{}}
+DEBUG 2017-07-06 15:37:54,230 [35   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: a8f850a3-20fb-458f-b5d9-2280af4203af
+DEBUG 2017-07-06 15:37:56,174 [35   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: a8f850a3-20fb-458f-b5d9-2280af4203af
+DEBUG 2017-07-06 15:37:56,501 [37   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"50709e15-6288-473c-bf77-dacdaf0e34c0","IpAddress":"::1","TenantId":1,"UserId":3,"ConnectTime":"2017-07-06T15:37:56.500195+08:00","Properties":{}}
+DEBUG 2017-07-06 15:37:56,505 [35   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 50709e15-6288-473c-bf77-dacdaf0e34c0
+DEBUG 2017-07-06 15:37:57,938 [35   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: ed873dc7-2e29-4f2b-8843-d86437d1dbb7
+DEBUG 2017-07-06 15:37:59,234 [27   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 50709e15-6288-473c-bf77-dacdaf0e34c0
+DEBUG 2017-07-06 15:37:59,540 [33   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"84273caf-f5a9-43ff-84de-2d892634ecbb","IpAddress":"::1","TenantId":1,"UserId":3,"ConnectTime":"2017-07-06T15:37:59.5400504+08:00","Properties":{}}
+DEBUG 2017-07-06 15:37:59,559 [37   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 84273caf-f5a9-43ff-84de-2d892634ecbb
+DEBUG 2017-07-06 15:38:01,571 [36   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"81b3bf21-e71e-423f-8d54-0500e878a39f","IpAddress":"::1","TenantId":null,"UserId":null,"ConnectTime":"2017-07-06T15:38:01.5716342+08:00","Properties":{}}
+DEBUG 2017-07-06 15:38:01,590 [37   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 81b3bf21-e71e-423f-8d54-0500e878a39f
+WARN  2017-07-06 15:38:14,113 [14   ] roject.Web.Controllers.AccountController - 登录失败!
+Abp.UI.UserFriendlyException: 登录失败!
+   在 MultiPageProject.Web.Controllers.AccountController.<GetLoginResultAsync>d__11.MoveNext() 位置 D:\ABP\MultiPageProject\MultiPageProject.Web\Controllers\AccountController.cs:行号 120
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 MultiPageProject.Web.Controllers.AccountController.<Login>d__10.MoveNext() 位置 D:\ABP\MultiPageProject\MultiPageProject.Web\Controllers\AccountController.cs:行号 90
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeAsynchronousActionMethod>b__36(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+DEBUG 2017-07-06 15:38:18,381 [36   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"31a2489e-5483-4d6d-89a6-faa5b7aa0795","IpAddress":"::1","TenantId":1,"UserId":7,"ConnectTime":"2017-07-06T15:38:18.3806339+08:00","Properties":{}}
+DEBUG 2017-07-06 15:38:18,389 [27   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 31a2489e-5483-4d6d-89a6-faa5b7aa0795
+DEBUG 2017-07-06 15:38:37,999 [36   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 84273caf-f5a9-43ff-84de-2d892634ecbb
+DEBUG 2017-07-06 15:38:48,016 [29   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 81b3bf21-e71e-423f-8d54-0500e878a39f
+DEBUG 2017-07-06 15:39:23,044 [25   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 31a2489e-5483-4d6d-89a6-faa5b7aa0795
+DEBUG 2017-07-06 15:39:23,476 [31   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"280868bc-e514-4409-996c-86eb2662de7a","IpAddress":"::1","TenantId":1,"UserId":7,"ConnectTime":"2017-07-06T15:39:23.476843+08:00","Properties":{}}
+DEBUG 2017-07-06 15:39:23,484 [31   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 280868bc-e514-4409-996c-86eb2662de7a
+DEBUG 2017-07-06 16:01:31,020 [11   ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2017-07-06 16:01:31,021 [11   ] Abp.BackgroundJobs.BackgroundJobManager  - Stop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-07-06 16:01:31,021 [11   ] Abp.BackgroundJobs.BackgroundJobManager  - WaitToStop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-07-06 16:01:31,021 [11   ] Abp.Modules.AbpModuleManager             - Shutting down completed.
+DEBUG 2017-07-06 16:01:45,064 [13   ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-07-06 16:01:45,083 [13   ] Abp.Modules.AbpModuleManager             - Found 16 ABP modules in total.
+DEBUG 2017-07-06 16:01:45,093 [13   ] Abp.Modules.AbpModuleManager             - Loaded module: MultiPageProject.Web.MultiPageProjectWebModule, MultiPageProject.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 16:01:45,097 [13   ] Abp.Modules.AbpModuleManager             - Loaded module: MultiPageProject.MultiPageProjectDataModule, MultiPageProject.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 16:01:45,098 [13   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 16:01:45,098 [13   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 16:01:45,098 [13   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 16:01:45,098 [13   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 16:01:45,099 [13   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 16:01:45,099 [13   ] Abp.Modules.AbpModuleManager             - Loaded module: MultiPageProject.MultiPageProjectCoreModule, MultiPageProject.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 16:01:45,099 [13   ] Abp.Modules.AbpModuleManager             - Loaded module: MultiPageProject.MultiPageProjectApplicationModule, MultiPageProject.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 16:01:45,099 [13   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 16:01:45,099 [13   ] Abp.Modules.AbpModuleManager             - Loaded module: MultiPageProject.Api.MultiPageProjectWebApiModule, MultiPageProject.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 16:01:45,099 [13   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 16:01:45,099 [13   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 16:01:45,100 [13   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 16:01:45,100 [13   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 16:01:45,100 [13   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 16:01:45,105 [13   ] Abp.Modules.AbpModuleManager             - 16 modules loaded.
+DEBUG 2017-07-06 16:01:45,283 [13   ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-07-06 16:01:45,283 [13   ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-07-06 16:01:45,283 [13   ] o.Configuration.LanguageManagementConfig - Converted MultiPageProject (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-07-06 16:01:45,283 [13   ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-07-06 16:01:45,728 [13   ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: MultiPageProject.EntityFramework.MultiPageProjectDbContext, MultiPageProject.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 16:01:46,991 [13   ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-07-06 16:01:46,998 [13   ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-07-06 16:01:47,012 [13   ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-07-06 16:01:47,015 [13   ] Abp.Localization.LocalizationManager     - Initialized localization source: MultiPageProject
+DEBUG 2017-07-06 16:01:47,017 [13   ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-07-06 16:01:47,128 [13   ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-07-06 16:01:47,189 [13   ] Abp.AutoMapper.AbpAutoMapperModule       - Found 7 classes define auto mapping attributes
+DEBUG 2017-07-06 16:01:47,189 [13   ] Abp.AutoMapper.AbpAutoMapperModule       - MultiPageProject.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-07-06 16:01:47,192 [13   ] Abp.AutoMapper.AbpAutoMapperModule       - MultiPageProject.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-07-06 16:01:47,192 [13   ] Abp.AutoMapper.AbpAutoMapperModule       - MultiPageProject.Users.Dto.CreateUserInput
+DEBUG 2017-07-06 16:01:47,192 [13   ] Abp.AutoMapper.AbpAutoMapperModule       - MultiPageProject.Users.Dto.UserListDto
+DEBUG 2017-07-06 16:01:47,192 [13   ] Abp.AutoMapper.AbpAutoMapperModule       - MultiPageProject.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2017-07-06 16:01:47,193 [13   ] Abp.AutoMapper.AbpAutoMapperModule       - MultiPageProject.MultiTenancy.Dto.TenantListDto
+DEBUG 2017-07-06 16:01:47,193 [13   ] Abp.AutoMapper.AbpAutoMapperModule       - MultiPageProject.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-07-06 16:01:48,882 [13   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MultiPageProject.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-07-06 16:01:48,885 [13   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MultiPageProject.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-07-06 16:01:48,888 [13   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MultiPageProject.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-07-06 16:01:48,910 [13   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MultiPageProject.MyTask.ITaskAppService' with service name 'app/task'.
+DEBUG 2017-07-06 16:01:48,912 [13   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MultiPageProject.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2017-07-06 16:01:49,522 [18   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected (on reconnected event): {"ConnectionId":"280868bc-e514-4409-996c-86eb2662de7a","IpAddress":"::1","TenantId":1,"UserId":7,"ConnectTime":"2017-07-06T16:01:49.4615603+08:00","Properties":{}}
+ERROR 2017-07-06 16:05:45,857 [33   ] eProject.Web.Controllers.TasksController - 执行处理程序“System.Web.Mvc.HttpHandlerUtil+ServerExecuteHttpHandlerAsyncWrapper”的子请求时出错。
+System.Web.HttpException (0x80004005): 执行处理程序“System.Web.Mvc.HttpHandlerUtil+ServerExecuteHttpHandlerAsyncWrapper”的子请求时出错。 ---> Abp.Authorization.AbpAuthorizationException: 您没有权限进行此操作,您至少需要下列权限的其中一项: Users
+   在 Abp.Authorization.PermissionCheckerExtensions.<AuthorizeAsync>d__9.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   在 System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   在 System.Threading.Tasks.Task.Execute()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   在 Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo)
+   在 Abp.Authorization.AuthorizationInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformSyncUow(IInvocation invocation, UnitOfWorkOptions options)
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options)
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Auditing.AuditingInterceptor.PerformSyncAuditing(IInvocation invocation, AuditInfo auditInfo)
+   在 Abp.Auditing.AuditingInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Runtime.Validation.Interception.ValidationInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.UserAppServiceProxy.GetUsers2()
+   在 MultiPageProject.Web.Controllers.TasksController.Create() 位置 D:\ABP\MultiPageProject\MultiPageProject.Web\Controllers\TasksController.cs:行号 41
+   在 lambda_method(Closure , ControllerBase , Object[] )
+   在 System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   在 System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<BeginInvokeSynchronousActionMethod>b__39(IAsyncResult asyncResult, ActionInvocation innerInvokeState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`2.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<BeginExecute>b__15(IAsyncResult asyncResult, Controller controller)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   在 System.Web.Mvc.HttpHandlerUtil.ServerExecuteHttpHandlerAsyncWrapper.<>c__DisplayClassa.<EndProcessRequest>b__9()
+   在 System.Web.Mvc.HttpHandlerUtil.ServerExecuteHttpHandlerWrapper.<>c__DisplayClass4.<Wrap>b__3()
+   在 System.Web.Mvc.HttpHandlerUtil.ServerExecuteHttpHandlerWrapper.Wrap[TResult](Func`1 func)
+   在 System.Web.Mvc.HttpHandlerUtil.ServerExecuteHttpHandlerWrapper.Wrap(Action action)
+   在 System.Web.Mvc.HttpHandlerUtil.ServerExecuteHttpHandlerAsyncWrapper.EndProcessRequest(IAsyncResult result)
+   在 System.Web.HttpServerUtility.ExecuteInternal(IHttpHandler handler, TextWriter writer, Boolean preserveForm, Boolean setPreviousPage, VirtualPath path, VirtualPath filePath, String physPath, Exception error, String queryStringOverride)
+   在 System.Web.HttpServerUtility.ExecuteInternal(IHttpHandler handler, TextWriter writer, Boolean preserveForm, Boolean setPreviousPage, VirtualPath path, VirtualPath filePath, String physPath, Exception error, String queryStringOverride)
+   在 System.Web.HttpServerUtility.Execute(IHttpHandler handler, TextWriter writer, Boolean preserveForm, Boolean setPreviousPage)
+   在 System.Web.HttpServerUtility.Execute(IHttpHandler handler, TextWriter writer, Boolean preserveForm)
+   在 System.Web.HttpServerUtilityWrapper.Execute(IHttpHandler handler, TextWriter writer, Boolean preserveForm)
+   在 System.Web.Mvc.Html.ChildActionExtensions.ActionHelper(HtmlHelper htmlHelper, String actionName, String controllerName, RouteValueDictionary routeValues, TextWriter textWriter)
+   在 System.Web.Mvc.Html.ChildActionExtensions.Action(HtmlHelper htmlHelper, String actionName, String controllerName, RouteValueDictionary routeValues)
+   在 System.Web.Mvc.Html.ChildActionExtensions.Action(HtmlHelper htmlHelper, String actionName)
+   在 ASP._Page_Views_Tasks_Index_cshtml.Execute() 位置 d:\ABP\MultiPageProject\MultiPageProject.Web\Views\Tasks\Index.cshtml:行号 36
+   在 System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   在 System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   在 System.Web.WebPages.StartPage.RunPage()
+   在 System.Web.WebPages.StartPage.ExecutePageHierarchy()
+   在 System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   在 System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   在 System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+DEBUG 2017-07-06 16:05:55,228 [37   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 280868bc-e514-4409-996c-86eb2662de7a
+DEBUG 2017-07-06 16:05:56,427 [29   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"6c10f2ac-80fb-43a8-9472-34b8a6dfa12c","IpAddress":"::1","TenantId":1,"UserId":7,"ConnectTime":"2017-07-06T16:05:56.427597+08:00","Properties":{}}
+DEBUG 2017-07-06 16:05:56,476 [24   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 6c10f2ac-80fb-43a8-9472-34b8a6dfa12c
+DEBUG 2017-07-06 16:06:02,055 [23   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"a2854062-acf7-406d-9364-b62117a5f6c0","IpAddress":"::1","TenantId":1,"UserId":7,"ConnectTime":"2017-07-06T16:06:02.0550156+08:00","Properties":{}}
+DEBUG 2017-07-06 16:06:02,070 [5    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: a2854062-acf7-406d-9364-b62117a5f6c0
+DEBUG 2017-07-06 16:11:56,798 [18   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 6c10f2ac-80fb-43a8-9472-34b8a6dfa12c
+WARN  2017-07-06 16:17:47,057 [7    ] Abp.Logging.LogHelper                    - Abp.Authorization.AbpAuthorizationException: 当前用户没有登录到系统！
+   在 Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   在 System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   在 System.Threading.Tasks.Task.Execute()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   在 Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo)
+   在 Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+Abp.Authorization.AbpAuthorizationException: 当前用户没有登录到系统！
+   在 Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   在 System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   在 System.Threading.Tasks.Task.Execute()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   在 Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo)
+   在 Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+DEBUG 2017-07-06 16:17:49,386 [33   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"05bc8333-80fd-48fe-abfe-466060c115f2","IpAddress":"::1","TenantId":null,"UserId":null,"ConnectTime":"2017-07-06T16:17:49.3867856+08:00","Properties":{}}
+DEBUG 2017-07-06 16:17:49,391 [33   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 05bc8333-80fd-48fe-abfe-466060c115f2
+DEBUG 2017-07-06 16:18:02,572 [7    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"a446f0f2-12eb-4e49-b6a4-c8c6b67f4761","IpAddress":"::1","TenantId":1,"UserId":5,"ConnectTime":"2017-07-06T16:18:02.5720658+08:00","Properties":{}}
+DEBUG 2017-07-06 16:18:02,584 [23   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: a446f0f2-12eb-4e49-b6a4-c8c6b67f4761
+DEBUG 2017-07-06 16:18:07,193 [7    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: a446f0f2-12eb-4e49-b6a4-c8c6b67f4761
+DEBUG 2017-07-06 16:18:07,689 [5    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"62948091-a5b9-4658-a285-0c41e06ccd4d","IpAddress":"::1","TenantId":1,"UserId":5,"ConnectTime":"2017-07-06T16:18:07.6896801+08:00","Properties":{}}
+DEBUG 2017-07-06 16:18:07,696 [22   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 62948091-a5b9-4658-a285-0c41e06ccd4d
+DEBUG 2017-07-06 16:18:22,347 [7    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: a2854062-acf7-406d-9364-b62117a5f6c0
+DEBUG 2017-07-06 16:18:32,359 [14   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 05bc8333-80fd-48fe-abfe-466060c115f2
+WARN  2017-07-06 16:22:02,603 [36   ] Abp.Logging.LogHelper                    - Can not find 'Tasks' in localization source 'MultiPageProject'!
+DEBUG 2017-07-06 16:22:02,658 [28   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 62948091-a5b9-4658-a285-0c41e06ccd4d
+WARN  2017-07-06 16:22:02,777 [20   ] Abp.Logging.LogHelper                    - Can not find 'Tasks' in localization source 'MultiPageProject'!
+DEBUG 2017-07-06 16:22:03,229 [25   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"988cecfd-4b7c-44e2-b634-17a914fd44f7","IpAddress":"::1","TenantId":1,"UserId":5,"ConnectTime":"2017-07-06T16:22:03.2292255+08:00","Properties":{}}
+DEBUG 2017-07-06 16:22:03,242 [21   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 988cecfd-4b7c-44e2-b634-17a914fd44f7
+WARN  2017-07-06 16:22:04,728 [20   ] Abp.Logging.LogHelper                    - Can not find 'Tasks' in localization source 'MultiPageProject'!
+DEBUG 2017-07-06 16:22:04,782 [33   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 988cecfd-4b7c-44e2-b634-17a914fd44f7
+WARN  2017-07-06 16:22:04,864 [25   ] Abp.Logging.LogHelper                    - Can not find 'Tasks' in localization source 'MultiPageProject'!
+DEBUG 2017-07-06 16:22:05,318 [14   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"42627283-d5cb-4f0f-abb2-43e2ab15dbc6","IpAddress":"::1","TenantId":1,"UserId":5,"ConnectTime":"2017-07-06T16:22:05.3184892+08:00","Properties":{}}
+DEBUG 2017-07-06 16:22:05,329 [21   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 42627283-d5cb-4f0f-abb2-43e2ab15dbc6
+ERROR 2017-07-06 16:22:05,340 [25   ] eProject.Web.Controllers.TasksController - Error executing child request for handler 'System.Web.Mvc.HttpHandlerUtil+ServerExecuteHttpHandlerAsyncWrapper'.
+System.Web.HttpException (0x80004005): Error executing child request for handler 'System.Web.Mvc.HttpHandlerUtil+ServerExecuteHttpHandlerAsyncWrapper'. ---> Abp.Authorization.AbpAuthorizationException: Required permissions are not granted. At least one of these permissions must be granted: Users
+   at Abp.Authorization.PermissionCheckerExtensions.<AuthorizeAsync>d__9.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   at System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   at Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo)
+   at Abp.Authorization.AuthorizationInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.PerformSyncUow(IInvocation invocation, UnitOfWorkOptions options)
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options)
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Auditing.AuditingInterceptor.PerformSyncAuditing(IInvocation invocation, AuditInfo auditInfo)
+   at Abp.Auditing.AuditingInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Runtime.Validation.Interception.ValidationInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.UserAppServiceProxy.GetUsers2()
+   at MultiPageProject.Web.Controllers.TasksController.Create() in D:\ABP\MultiPageProject\MultiPageProject.Web\Controllers\TasksController.cs:line 41
+   at lambda_method(Closure , ControllerBase , Object[] )
+   at System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   at System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<BeginInvokeSynchronousActionMethod>b__39(IAsyncResult asyncResult, ActionInvocation innerInvokeState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`2.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecute>b__15(IAsyncResult asyncResult, Controller controller)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.Mvc.HttpHandlerUtil.ServerExecuteHttpHandlerAsyncWrapper.<>c__DisplayClassa.<EndProcessRequest>b__9()
+   at System.Web.Mvc.HttpHandlerUtil.ServerExecuteHttpHandlerWrapper.<>c__DisplayClass4.<Wrap>b__3()
+   at System.Web.Mvc.HttpHandlerUtil.ServerExecuteHttpHandlerWrapper.Wrap[TResult](Func`1 func)
+   at System.Web.Mvc.HttpHandlerUtil.ServerExecuteHttpHandlerWrapper.Wrap(Action action)
+   at System.Web.Mvc.HttpHandlerUtil.ServerExecuteHttpHandlerAsyncWrapper.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpServerUtility.ExecuteInternal(IHttpHandler handler, TextWriter writer, Boolean preserveForm, Boolean setPreviousPage, VirtualPath path, VirtualPath filePath, String physPath, Exception error, String queryStringOverride)
+   at System.Web.HttpServerUtility.ExecuteInternal(IHttpHandler handler, TextWriter writer, Boolean preserveForm, Boolean setPreviousPage, VirtualPath path, VirtualPath filePath, String physPath, Exception error, String queryStringOverride)
+   at System.Web.HttpServerUtility.Execute(IHttpHandler handler, TextWriter writer, Boolean preserveForm, Boolean setPreviousPage)
+   at System.Web.HttpServerUtility.Execute(IHttpHandler handler, TextWriter writer, Boolean preserveForm)
+   at System.Web.HttpServerUtilityWrapper.Execute(IHttpHandler handler, TextWriter writer, Boolean preserveForm)
+   at System.Web.Mvc.Html.ChildActionExtensions.ActionHelper(HtmlHelper htmlHelper, String actionName, String controllerName, RouteValueDictionary routeValues, TextWriter textWriter)
+   at System.Web.Mvc.Html.ChildActionExtensions.Action(HtmlHelper htmlHelper, String actionName, String controllerName, RouteValueDictionary routeValues)
+   at System.Web.Mvc.Html.ChildActionExtensions.Action(HtmlHelper htmlHelper, String actionName)
+   at ASP._Page_Views_Tasks_Index_cshtml.Execute() in d:\ABP\MultiPageProject\MultiPageProject.Web\Views\Tasks\Index.cshtml:line 36
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.StartPage.RunPage()
+   at System.Web.WebPages.StartPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+DEBUG 2017-07-06 16:22:05,388 [23   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 42627283-d5cb-4f0f-abb2-43e2ab15dbc6
+DEBUG 2017-07-06 16:22:08,491 [28   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"56f1b675-0c09-429b-ae31-cfe4725e1c7c","IpAddress":"::1","TenantId":1,"UserId":5,"ConnectTime":"2017-07-06T16:22:08.4918609+08:00","Properties":{}}
+DEBUG 2017-07-06 16:22:08,495 [23   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 56f1b675-0c09-429b-ae31-cfe4725e1c7c
+WARN  2017-07-06 16:22:09,834 [25   ] Abp.Logging.LogHelper                    - Can not find 'Tasks' in localization source 'MultiPageProject'!
+DEBUG 2017-07-06 16:22:09,886 [14   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 56f1b675-0c09-429b-ae31-cfe4725e1c7c
+WARN  2017-07-06 16:22:09,977 [14   ] Abp.Logging.LogHelper                    - Can not find 'Tasks' in localization source 'MultiPageProject'!
+DEBUG 2017-07-06 16:22:10,211 [23   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"41ea6ef9-6afe-4556-a4ad-8f1907e6223d","IpAddress":"::1","TenantId":1,"UserId":5,"ConnectTime":"2017-07-06T16:22:10.211791+08:00","Properties":{}}
+DEBUG 2017-07-06 16:22:10,217 [28   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 41ea6ef9-6afe-4556-a4ad-8f1907e6223d
+ERROR 2017-07-06 16:22:11,030 [28   ] eProject.Web.Controllers.TasksController - Error executing child request for handler 'System.Web.Mvc.HttpHandlerUtil+ServerExecuteHttpHandlerAsyncWrapper'.
+System.Web.HttpException (0x80004005): Error executing child request for handler 'System.Web.Mvc.HttpHandlerUtil+ServerExecuteHttpHandlerAsyncWrapper'. ---> Abp.Authorization.AbpAuthorizationException: Required permissions are not granted. At least one of these permissions must be granted: Users
+   at Abp.Authorization.PermissionCheckerExtensions.<AuthorizeAsync>d__9.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   at System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   at Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo)
+   at Abp.Authorization.AuthorizationInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.PerformSyncUow(IInvocation invocation, UnitOfWorkOptions options)
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options)
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Auditing.AuditingInterceptor.PerformSyncAuditing(IInvocation invocation, AuditInfo auditInfo)
+   at Abp.Auditing.AuditingInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Runtime.Validation.Interception.ValidationInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.UserAppServiceProxy.GetUsers2()
+   at MultiPageProject.Web.Controllers.TasksController.Create() in D:\ABP\MultiPageProject\MultiPageProject.Web\Controllers\TasksController.cs:line 41
+   at lambda_method(Closure , ControllerBase , Object[] )
+   at System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   at System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<BeginInvokeSynchronousActionMethod>b__39(IAsyncResult asyncResult, ActionInvocation innerInvokeState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`2.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecute>b__15(IAsyncResult asyncResult, Controller controller)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.Mvc.HttpHandlerUtil.ServerExecuteHttpHandlerAsyncWrapper.<>c__DisplayClassa.<EndProcessRequest>b__9()
+   at System.Web.Mvc.HttpHandlerUtil.ServerExecuteHttpHandlerWrapper.<>c__DisplayClass4.<Wrap>b__3()
+   at System.Web.Mvc.HttpHandlerUtil.ServerExecuteHttpHandlerWrapper.Wrap[TResult](Func`1 func)
+   at System.Web.Mvc.HttpHandlerUtil.ServerExecuteHttpHandlerWrapper.Wrap(Action action)
+   at System.Web.Mvc.HttpHandlerUtil.ServerExecuteHttpHandlerAsyncWrapper.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpServerUtility.ExecuteInternal(IHttpHandler handler, TextWriter writer, Boolean preserveForm, Boolean setPreviousPage, VirtualPath path, VirtualPath filePath, String physPath, Exception error, String queryStringOverride)
+   at System.Web.HttpServerUtility.ExecuteInternal(IHttpHandler handler, TextWriter writer, Boolean preserveForm, Boolean setPreviousPage, VirtualPath path, VirtualPath filePath, String physPath, Exception error, String queryStringOverride)
+   at System.Web.HttpServerUtility.Execute(IHttpHandler handler, TextWriter writer, Boolean preserveForm, Boolean setPreviousPage)
+   at System.Web.HttpServerUtility.Execute(IHttpHandler handler, TextWriter writer, Boolean preserveForm)
+   at System.Web.HttpServerUtilityWrapper.Execute(IHttpHandler handler, TextWriter writer, Boolean preserveForm)
+   at System.Web.Mvc.Html.ChildActionExtensions.ActionHelper(HtmlHelper htmlHelper, String actionName, String controllerName, RouteValueDictionary routeValues, TextWriter textWriter)
+   at System.Web.Mvc.Html.ChildActionExtensions.Action(HtmlHelper htmlHelper, String actionName, String controllerName, RouteValueDictionary routeValues)
+   at System.Web.Mvc.Html.ChildActionExtensions.Action(HtmlHelper htmlHelper, String actionName)
+   at ASP._Page_Views_Tasks_Index_cshtml.Execute() in d:\ABP\MultiPageProject\MultiPageProject.Web\Views\Tasks\Index.cshtml:line 36
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.StartPage.RunPage()
+   at System.Web.WebPages.StartPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+DEBUG 2017-07-06 16:22:11,053 [14   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 41ea6ef9-6afe-4556-a4ad-8f1907e6223d
+DEBUG 2017-07-06 16:22:12,472 [21   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"f9c0277f-ea82-4b08-b91b-159ee8552ff7","IpAddress":"::1","TenantId":1,"UserId":5,"ConnectTime":"2017-07-06T16:22:12.4726919+08:00","Properties":{}}
+DEBUG 2017-07-06 16:22:12,480 [28   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: f9c0277f-ea82-4b08-b91b-159ee8552ff7
+WARN  2017-07-06 16:22:17,337 [36   ] Abp.Logging.LogHelper                    - Can not find 'Tasks' in localization source 'MultiPageProject'!
+DEBUG 2017-07-06 16:22:17,387 [23   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: f9c0277f-ea82-4b08-b91b-159ee8552ff7
+WARN  2017-07-06 16:22:17,489 [36   ] Abp.Logging.LogHelper                    - Can not find 'Tasks' in localization source 'MultiPageProject'!
+DEBUG 2017-07-06 16:22:17,761 [23   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"de1adcf7-74a9-4211-8af7-9175817b8f12","IpAddress":"::1","TenantId":1,"UserId":5,"ConnectTime":"2017-07-06T16:22:17.7614766+08:00","Properties":{}}
+DEBUG 2017-07-06 16:22:17,766 [23   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: de1adcf7-74a9-4211-8af7-9175817b8f12
+DEBUG 2017-07-06 16:25:49,449 [41   ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2017-07-06 16:25:49,450 [41   ] Abp.BackgroundJobs.BackgroundJobManager  - Stop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-07-06 16:25:49,451 [41   ] Abp.BackgroundJobs.BackgroundJobManager  - WaitToStop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-07-06 16:25:49,451 [41   ] Abp.Modules.AbpModuleManager             - Shutting down completed.
+DEBUG 2017-07-06 16:25:55,359 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-07-06 16:25:55,915 [1    ] Abp.Modules.AbpModuleManager             - Found 16 ABP modules in total.
+DEBUG 2017-07-06 16:25:55,923 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MultiPageProject.Web.MultiPageProjectWebModule, MultiPageProject.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 16:25:55,925 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MultiPageProject.MultiPageProjectDataModule, MultiPageProject.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 16:25:55,925 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 16:25:55,926 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 16:25:55,926 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 16:25:55,926 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 16:25:55,926 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 16:25:55,927 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MultiPageProject.MultiPageProjectCoreModule, MultiPageProject.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 16:25:55,927 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MultiPageProject.MultiPageProjectApplicationModule, MultiPageProject.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 16:25:55,927 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 16:25:55,927 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MultiPageProject.Api.MultiPageProjectWebApiModule, MultiPageProject.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 16:25:55,927 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 16:25:55,927 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 16:25:55,927 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 16:25:55,928 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 16:25:55,928 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 16:25:55,930 [1    ] Abp.Modules.AbpModuleManager             - 16 modules loaded.
+DEBUG 2017-07-06 16:25:57,316 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-07-06 16:25:57,316 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-07-06 16:25:57,316 [1    ] o.Configuration.LanguageManagementConfig - Converted MultiPageProject (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-07-06 16:25:57,316 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-07-06 16:25:58,137 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: MultiPageProject.EntityFramework.MultiPageProjectDbContext, MultiPageProject.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 16:25:58,980 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-07-06 16:25:58,991 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-07-06 16:25:58,999 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-07-06 16:25:59,001 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: MultiPageProject
+DEBUG 2017-07-06 16:25:59,003 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-07-06 16:25:59,109 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-07-06 16:25:59,286 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 7 classes define auto mapping attributes
+DEBUG 2017-07-06 16:25:59,286 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MultiPageProject.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-07-06 16:25:59,289 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MultiPageProject.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-07-06 16:25:59,290 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MultiPageProject.Users.Dto.CreateUserInput
+DEBUG 2017-07-06 16:25:59,290 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MultiPageProject.Users.Dto.UserListDto
+DEBUG 2017-07-06 16:25:59,290 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MultiPageProject.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2017-07-06 16:25:59,290 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MultiPageProject.MultiTenancy.Dto.TenantListDto
+DEBUG 2017-07-06 16:25:59,290 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MultiPageProject.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-07-06 16:26:01,032 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MultiPageProject.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-07-06 16:26:01,034 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MultiPageProject.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-07-06 16:26:01,036 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MultiPageProject.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-07-06 16:26:01,038 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MultiPageProject.MyTask.ITaskAppService' with service name 'app/task'.
+DEBUG 2017-07-06 16:26:01,040 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MultiPageProject.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2017-07-06 16:26:03,578 [40   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected (on reconnected event): {"ConnectionId":"de1adcf7-74a9-4211-8af7-9175817b8f12","IpAddress":"::1","TenantId":1,"UserId":5,"ConnectTime":"2017-07-06T16:26:03.5253789+08:00","Properties":{}}
+DEBUG 2017-07-06 16:26:47,560 [24   ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2017-07-06 16:26:47,561 [24   ] Abp.BackgroundJobs.BackgroundJobManager  - Stop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-07-06 16:26:47,561 [24   ] Abp.BackgroundJobs.BackgroundJobManager  - WaitToStop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-07-06 16:26:47,561 [24   ] Abp.Modules.AbpModuleManager             - Shutting down completed.
+DEBUG 2017-07-06 16:26:56,523 [13   ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-07-06 16:26:56,538 [13   ] Abp.Modules.AbpModuleManager             - Found 16 ABP modules in total.
+DEBUG 2017-07-06 16:26:56,544 [13   ] Abp.Modules.AbpModuleManager             - Loaded module: MultiPageProject.Web.MultiPageProjectWebModule, MultiPageProject.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 16:26:56,547 [13   ] Abp.Modules.AbpModuleManager             - Loaded module: MultiPageProject.MultiPageProjectDataModule, MultiPageProject.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 16:26:56,547 [13   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 16:26:56,547 [13   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 16:26:56,547 [13   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 16:26:56,547 [13   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 16:26:56,548 [13   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 16:26:56,548 [13   ] Abp.Modules.AbpModuleManager             - Loaded module: MultiPageProject.MultiPageProjectCoreModule, MultiPageProject.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 16:26:56,548 [13   ] Abp.Modules.AbpModuleManager             - Loaded module: MultiPageProject.MultiPageProjectApplicationModule, MultiPageProject.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 16:26:56,548 [13   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 16:26:56,548 [13   ] Abp.Modules.AbpModuleManager             - Loaded module: MultiPageProject.Api.MultiPageProjectWebApiModule, MultiPageProject.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 16:26:56,549 [13   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 16:26:56,549 [13   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 16:26:56,549 [13   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 16:26:56,549 [13   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 16:26:56,549 [13   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 16:26:56,552 [13   ] Abp.Modules.AbpModuleManager             - 16 modules loaded.
+DEBUG 2017-07-06 16:26:56,675 [13   ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-07-06 16:26:56,676 [13   ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-07-06 16:26:56,676 [13   ] o.Configuration.LanguageManagementConfig - Converted MultiPageProject (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-07-06 16:26:56,676 [13   ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-07-06 16:26:57,026 [13   ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: MultiPageProject.EntityFramework.MultiPageProjectDbContext, MultiPageProject.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-06 16:26:58,093 [13   ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-07-06 16:26:58,100 [13   ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-07-06 16:26:58,106 [13   ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-07-06 16:26:58,121 [13   ] Abp.Localization.LocalizationManager     - Initialized localization source: MultiPageProject
+DEBUG 2017-07-06 16:26:58,122 [13   ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-07-06 16:26:58,193 [13   ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-07-06 16:26:58,236 [13   ] Abp.AutoMapper.AbpAutoMapperModule       - Found 7 classes define auto mapping attributes
+DEBUG 2017-07-06 16:26:58,237 [13   ] Abp.AutoMapper.AbpAutoMapperModule       - MultiPageProject.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-07-06 16:26:58,239 [13   ] Abp.AutoMapper.AbpAutoMapperModule       - MultiPageProject.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-07-06 16:26:58,239 [13   ] Abp.AutoMapper.AbpAutoMapperModule       - MultiPageProject.Users.Dto.CreateUserInput
+DEBUG 2017-07-06 16:26:58,240 [13   ] Abp.AutoMapper.AbpAutoMapperModule       - MultiPageProject.Users.Dto.UserListDto
+DEBUG 2017-07-06 16:26:58,240 [13   ] Abp.AutoMapper.AbpAutoMapperModule       - MultiPageProject.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2017-07-06 16:26:58,240 [13   ] Abp.AutoMapper.AbpAutoMapperModule       - MultiPageProject.MultiTenancy.Dto.TenantListDto
+DEBUG 2017-07-06 16:26:58,240 [13   ] Abp.AutoMapper.AbpAutoMapperModule       - MultiPageProject.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-07-06 16:26:59,595 [13   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MultiPageProject.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-07-06 16:26:59,596 [13   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MultiPageProject.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-07-06 16:26:59,597 [13   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MultiPageProject.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-07-06 16:26:59,598 [13   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MultiPageProject.MyTask.ITaskAppService' with service name 'app/task'.
+DEBUG 2017-07-06 16:26:59,599 [13   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MultiPageProject.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2017-07-06 16:27:00,105 [25   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected (on reconnected event): {"ConnectionId":"de1adcf7-74a9-4211-8af7-9175817b8f12","IpAddress":"::1","TenantId":1,"UserId":5,"ConnectTime":"2017-07-06T16:27:00.0556936+08:00","Properties":{}}
+WARN  2017-07-06 16:29:48,029 [20   ] Abp.Logging.LogHelper                    - Can not find 'Tasks' in localization source 'MultiPageProject'!
+WARN  2017-07-06 16:29:48,030 [20   ] Abp.Logging.LogHelper                    - Can not find 'Account' in localization source 'MultiPageProject'!
+DEBUG 2017-07-06 16:29:50,787 [37   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: de1adcf7-74a9-4211-8af7-9175817b8f12
+WARN  2017-07-06 16:29:51,231 [16   ] Abp.Logging.LogHelper                    - Can not find 'Tasks' in localization source 'MultiPageProject'!
+WARN  2017-07-06 16:29:51,232 [16   ] Abp.Logging.LogHelper                    - Can not find 'Account' in localization source 'MultiPageProject'!
+DEBUG 2017-07-06 16:29:51,588 [25   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"e1c60da9-71b8-4cee-9b3d-7e8c6fd4a673","IpAddress":"::1","TenantId":1,"UserId":5,"ConnectTime":"2017-07-06T16:29:51.5885194+08:00","Properties":{}}
+DEBUG 2017-07-06 16:29:51,636 [25   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: e1c60da9-71b8-4cee-9b3d-7e8c6fd4a673
+WARN  2017-07-06 16:30:09,473 [19   ] Abp.Logging.LogHelper                    - Can not find 'Tasks' in localization source 'MultiPageProject'!
+WARN  2017-07-06 16:30:09,474 [19   ] Abp.Logging.LogHelper                    - Can not find 'Account' in localization source 'MultiPageProject'!
+DEBUG 2017-07-06 16:30:09,534 [24   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: e1c60da9-71b8-4cee-9b3d-7e8c6fd4a673
+WARN  2017-07-06 16:30:09,776 [40   ] Abp.Logging.LogHelper                    - Can not find 'Tasks' in localization source 'MultiPageProject'!
+WARN  2017-07-06 16:30:09,783 [40   ] Abp.Logging.LogHelper                    - Can not find 'Account' in localization source 'MultiPageProject'!
+DEBUG 2017-07-06 16:30:10,263 [19   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"a5d99cc5-5d4a-40c9-bebf-a6379ad98554","IpAddress":"::1","TenantId":1,"UserId":5,"ConnectTime":"2017-07-06T16:30:10.263461+08:00","Properties":{}}
+DEBUG 2017-07-06 16:30:10,272 [24   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: a5d99cc5-5d4a-40c9-bebf-a6379ad98554
+WARN  2017-07-06 16:30:16,047 [37   ] Abp.Logging.LogHelper                    - Can not find 'Tasks' in localization source 'MultiPageProject'!
+WARN  2017-07-06 16:30:16,049 [37   ] Abp.Logging.LogHelper                    - Can not find 'Account' in localization source 'MultiPageProject'!
+DEBUG 2017-07-06 16:30:16,098 [40   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: a5d99cc5-5d4a-40c9-bebf-a6379ad98554
+WARN  2017-07-06 16:30:16,195 [24   ] Abp.Logging.LogHelper                    - Can not find 'Tasks' in localization source 'MultiPageProject'!
+WARN  2017-07-06 16:30:16,195 [24   ] Abp.Logging.LogHelper                    - Can not find 'Account' in localization source 'MultiPageProject'!
+DEBUG 2017-07-06 16:30:16,493 [20   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"0a36bb73-8558-4e72-93e5-6a3094e00559","IpAddress":"::1","TenantId":1,"UserId":5,"ConnectTime":"2017-07-06T16:30:16.4933643+08:00","Properties":{}}
+DEBUG 2017-07-06 16:30:16,505 [37   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 0a36bb73-8558-4e72-93e5-6a3094e00559
+WARN  2017-07-06 16:30:17,490 [24   ] Abp.Logging.LogHelper                    - Can not find 'Tasks' in localization source 'MultiPageProject'!
+WARN  2017-07-06 16:30:17,491 [24   ] Abp.Logging.LogHelper                    - Can not find 'Account' in localization source 'MultiPageProject'!
+DEBUG 2017-07-06 16:30:17,588 [24   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 0a36bb73-8558-4e72-93e5-6a3094e00559
+WARN  2017-07-06 16:30:17,681 [40   ] Abp.Logging.LogHelper                    - Can not find 'Tasks' in localization source 'MultiPageProject'!
+WARN  2017-07-06 16:30:17,681 [40   ] Abp.Logging.LogHelper                    - Can not find 'Account' in localization source 'MultiPageProject'!
+DEBUG 2017-07-06 16:30:17,941 [24   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"56cfda13-b0ec-4792-a834-c718f3ef4383","IpAddress":"::1","TenantId":1,"UserId":5,"ConnectTime":"2017-07-06T16:30:17.9412003+08:00","Properties":{}}
+DEBUG 2017-07-06 16:30:17,955 [20   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 56cfda13-b0ec-4792-a834-c718f3ef4383
+WARN  2017-07-06 16:30:18,359 [40   ] Abp.Logging.LogHelper                    - Can not find 'Tasks' in localization source 'MultiPageProject'!
+WARN  2017-07-06 16:30:18,360 [40   ] Abp.Logging.LogHelper                    - Can not find 'Account' in localization source 'MultiPageProject'!
+DEBUG 2017-07-06 16:30:18,403 [20   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 56cfda13-b0ec-4792-a834-c718f3ef4383
+WARN  2017-07-06 16:30:18,485 [24   ] Abp.Logging.LogHelper                    - Can not find 'Tasks' in localization source 'MultiPageProject'!
+WARN  2017-07-06 16:30:18,485 [24   ] Abp.Logging.LogHelper                    - Can not find 'Account' in localization source 'MultiPageProject'!
+DEBUG 2017-07-06 16:30:18,761 [38   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"6f5171d3-3964-4804-b7b6-0fe060875f75","IpAddress":"::1","TenantId":1,"UserId":5,"ConnectTime":"2017-07-06T16:30:18.7614172+08:00","Properties":{}}
+DEBUG 2017-07-06 16:30:18,784 [25   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 6f5171d3-3964-4804-b7b6-0fe060875f75
+DEBUG 2017-07-06 16:30:29,002 [24   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 6f5171d3-3964-4804-b7b6-0fe060875f75
+WARN  2017-07-06 16:30:43,955 [20   ] Abp.Logging.LogHelper                    - Can not find 'Tasks' in localization source 'MultiPageProject'!
+WARN  2017-07-06 16:30:43,955 [20   ] Abp.Logging.LogHelper                    - Can not find 'Account' in localization source 'MultiPageProject'!
+WARN  2017-07-06 16:30:44,072 [38   ] Abp.Logging.LogHelper                    - Can not find 'Tasks' in localization source 'MultiPageProject'!
+WARN  2017-07-06 16:30:44,073 [38   ] Abp.Logging.LogHelper                    - Can not find 'Account' in localization source 'MultiPageProject'!
+DEBUG 2017-07-06 16:30:44,652 [40   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"d3edc9e3-5ec2-4ca5-97ff-d42fdee30403","IpAddress":"::1","TenantId":1,"UserId":5,"ConnectTime":"2017-07-06T16:30:44.65257+08:00","Properties":{}}
+DEBUG 2017-07-06 16:30:44,660 [17   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: d3edc9e3-5ec2-4ca5-97ff-d42fdee30403
+WARN  2017-07-06 16:31:08,890 [17   ] Abp.Logging.LogHelper                    - Can not find 'Tasks' in localization source 'MultiPageProject'!
+WARN  2017-07-06 16:31:08,890 [17   ] Abp.Logging.LogHelper                    - Can not find 'Account' in localization source 'MultiPageProject'!
+DEBUG 2017-07-06 16:31:08,944 [15   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: d3edc9e3-5ec2-4ca5-97ff-d42fdee30403
+WARN  2017-07-06 16:31:09,199 [19   ] Abp.Logging.LogHelper                    - Can not find 'Tasks' in localization source 'MultiPageProject'!
+WARN  2017-07-06 16:31:09,205 [19   ] Abp.Logging.LogHelper                    - Can not find 'Account' in localization source 'MultiPageProject'!
+DEBUG 2017-07-06 16:31:09,695 [15   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"b5329bc0-b207-418c-8272-58bbd6957c80","IpAddress":"::1","TenantId":1,"UserId":5,"ConnectTime":"2017-07-06T16:31:09.6951995+08:00","Properties":{}}
+DEBUG 2017-07-06 16:31:09,703 [31   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: b5329bc0-b207-418c-8272-58bbd6957c80
+WARN  2017-07-06 16:32:02,329 [17   ] Abp.Logging.LogHelper                    - Can not find 'Tasks' in localization source 'MultiPageProject'!
+WARN  2017-07-06 16:32:02,329 [17   ] Abp.Logging.LogHelper                    - Can not find 'Account' in localization source 'MultiPageProject'!
+DEBUG 2017-07-06 16:32:02,369 [25   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: b5329bc0-b207-418c-8272-58bbd6957c80
+WARN  2017-07-06 16:32:02,561 [17   ] Abp.Logging.LogHelper                    - Can not find 'Tasks' in localization source 'MultiPageProject'!
+WARN  2017-07-06 16:32:02,562 [17   ] Abp.Logging.LogHelper                    - Can not find 'Account' in localization source 'MultiPageProject'!
+DEBUG 2017-07-06 16:32:03,169 [40   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"8cc8745e-b7b1-4be2-94e7-7175de513f9a","IpAddress":"::1","TenantId":1,"UserId":5,"ConnectTime":"2017-07-06T16:32:03.1693269+08:00","Properties":{}}
+DEBUG 2017-07-06 16:32:03,194 [21   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 8cc8745e-b7b1-4be2-94e7-7175de513f9a
+WARN  2017-07-06 16:32:33,761 [25   ] Abp.Logging.LogHelper                    - Can not find 'Tasks' in localization source 'MultiPageProject'!
+WARN  2017-07-06 16:32:33,762 [25   ] Abp.Logging.LogHelper                    - Can not find 'Account' in localization source 'MultiPageProject'!
+DEBUG 2017-07-06 16:32:33,833 [25   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 8cc8745e-b7b1-4be2-94e7-7175de513f9a
+WARN  2017-07-06 16:32:34,116 [25   ] Abp.Logging.LogHelper                    - Can not find 'Tasks' in localization source 'MultiPageProject'!
+WARN  2017-07-06 16:32:34,117 [25   ] Abp.Logging.LogHelper                    - Can not find 'Account' in localization source 'MultiPageProject'!
+DEBUG 2017-07-06 16:32:34,435 [20   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"cdcd38ea-c995-4d23-aba4-f71fbb6e5285","IpAddress":"::1","TenantId":1,"UserId":5,"ConnectTime":"2017-07-06T16:32:34.4352966+08:00","Properties":{}}
+DEBUG 2017-07-06 16:32:34,445 [25   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: cdcd38ea-c995-4d23-aba4-f71fbb6e5285
+WARN  2017-07-06 16:33:17,376 [25   ] Abp.Logging.LogHelper                    - Can not find 'Tasks' in localization source 'MultiPageProject'!
+WARN  2017-07-06 16:33:17,377 [25   ] Abp.Logging.LogHelper                    - Can not find 'Account' in localization source 'MultiPageProject'!
+DEBUG 2017-07-06 16:33:17,417 [20   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: cdcd38ea-c995-4d23-aba4-f71fbb6e5285
+WARN  2017-07-06 16:33:17,651 [33   ] Abp.Logging.LogHelper                    - Can not find 'Tasks' in localization source 'MultiPageProject'!
+WARN  2017-07-06 16:33:17,652 [33   ] Abp.Logging.LogHelper                    - Can not find 'Account' in localization source 'MultiPageProject'!
+DEBUG 2017-07-06 16:33:17,996 [25   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"0927dc63-c887-4a5f-b979-3e3568e48fe9","IpAddress":"::1","TenantId":1,"UserId":5,"ConnectTime":"2017-07-06T16:33:17.9965305+08:00","Properties":{}}
+DEBUG 2017-07-06 16:33:18,006 [25   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 0927dc63-c887-4a5f-b979-3e3568e48fe9
+WARN  2017-07-06 16:33:32,462 [17   ] Abp.Logging.LogHelper                    - Can not find 'Tasks' in localization source 'MultiPageProject'!
+WARN  2017-07-06 16:33:32,462 [17   ] Abp.Logging.LogHelper                    - Can not find 'Account' in localization source 'MultiPageProject'!
+DEBUG 2017-07-06 16:33:32,520 [6    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 0927dc63-c887-4a5f-b979-3e3568e48fe9
+WARN  2017-07-06 16:33:32,993 [26   ] Abp.Logging.LogHelper                    - Can not find 'Tasks' in localization source 'MultiPageProject'!
+WARN  2017-07-06 16:33:32,994 [26   ] Abp.Logging.LogHelper                    - Can not find 'Account' in localization source 'MultiPageProject'!
+DEBUG 2017-07-06 16:33:33,267 [26   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"a97f7b9e-bde2-4d5e-9ae6-875c64d5ace4","IpAddress":"::1","TenantId":1,"UserId":5,"ConnectTime":"2017-07-06T16:33:33.2673022+08:00","Properties":{}}
+DEBUG 2017-07-06 16:33:33,277 [17   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: a97f7b9e-bde2-4d5e-9ae6-875c64d5ace4
+WARN  2017-07-06 16:37:32,938 [27   ] Abp.Logging.LogHelper                    - Can not find 'Tasks' in localization source 'MultiPageProject'!
+WARN  2017-07-06 16:37:32,939 [27   ] Abp.Logging.LogHelper                    - Can not find 'Account' in localization source 'MultiPageProject'!
+DEBUG 2017-07-06 16:37:32,999 [42   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: a97f7b9e-bde2-4d5e-9ae6-875c64d5ace4
+WARN  2017-07-06 16:37:33,205 [27   ] Abp.Logging.LogHelper                    - Can not find 'Tasks' in localization source 'MultiPageProject'!
+WARN  2017-07-06 16:37:33,206 [27   ] Abp.Logging.LogHelper                    - Can not find 'Account' in localization source 'MultiPageProject'!
+DEBUG 2017-07-06 16:37:33,665 [43   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"58d395ed-3e56-4ec6-91b6-f7ec85393198","IpAddress":"::1","TenantId":1,"UserId":5,"ConnectTime":"2017-07-06T16:37:33.6655163+08:00","Properties":{}}
+DEBUG 2017-07-06 16:37:33,672 [27   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 58d395ed-3e56-4ec6-91b6-f7ec85393198
+WARN  2017-07-06 16:38:36,415 [41   ] Abp.Logging.LogHelper                    - Can not find 'Tasks' in localization source 'MultiPageProject'!
+WARN  2017-07-06 16:38:36,415 [41   ] Abp.Logging.LogHelper                    - Can not find 'Account' in localization source 'MultiPageProject'!
+DEBUG 2017-07-06 16:38:36,461 [22   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 58d395ed-3e56-4ec6-91b6-f7ec85393198
+WARN  2017-07-06 16:38:36,707 [30   ] Abp.Logging.LogHelper                    - Can not find 'Tasks' in localization source 'MultiPageProject'!
+WARN  2017-07-06 16:38:36,707 [30   ] Abp.Logging.LogHelper                    - Can not find 'Account' in localization source 'MultiPageProject'!
+DEBUG 2017-07-06 16:38:37,041 [29   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"8467c31c-0ffc-4d2c-ba6f-5893da809820","IpAddress":"::1","TenantId":1,"UserId":5,"ConnectTime":"2017-07-06T16:38:37.0412806+08:00","Properties":{}}
+DEBUG 2017-07-06 16:38:37,053 [40   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 8467c31c-0ffc-4d2c-ba6f-5893da809820
+WARN  2017-07-06 16:38:47,093 [30   ] Abp.Logging.LogHelper                    - Can not find 'Tasks' in localization source 'MultiPageProject'!
+WARN  2017-07-06 16:38:47,093 [30   ] Abp.Logging.LogHelper                    - Can not find 'Account' in localization source 'MultiPageProject'!
+DEBUG 2017-07-06 16:38:47,135 [22   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 8467c31c-0ffc-4d2c-ba6f-5893da809820
+WARN  2017-07-06 16:38:47,389 [40   ] Abp.Logging.LogHelper                    - Can not find 'Tasks' in localization source 'MultiPageProject'!
+WARN  2017-07-06 16:38:47,429 [40   ] Abp.Logging.LogHelper                    - Can not find 'Account' in localization source 'MultiPageProject'!
+DEBUG 2017-07-06 16:38:47,997 [42   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"92d34ba2-263e-409a-bce0-e4e220a5fc18","IpAddress":"::1","TenantId":1,"UserId":5,"ConnectTime":"2017-07-06T16:38:47.997327+08:00","Properties":{}}
+DEBUG 2017-07-06 16:38:48,022 [42   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 92d34ba2-263e-409a-bce0-e4e220a5fc18
+WARN  2017-07-06 16:38:49,283 [40   ] Abp.Logging.LogHelper                    - Can not find 'Tasks' in localization source 'MultiPageProject'!
+WARN  2017-07-06 16:38:49,283 [40   ] Abp.Logging.LogHelper                    - Can not find 'Account' in localization source 'MultiPageProject'!
+DEBUG 2017-07-06 16:38:49,341 [44   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 92d34ba2-263e-409a-bce0-e4e220a5fc18
+WARN  2017-07-06 16:38:49,503 [42   ] Abp.Logging.LogHelper                    - Can not find 'Tasks' in localization source 'MultiPageProject'!
+WARN  2017-07-06 16:38:49,504 [42   ] Abp.Logging.LogHelper                    - Can not find 'Account' in localization source 'MultiPageProject'!
+DEBUG 2017-07-06 16:38:50,223 [41   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"6252d832-bf4a-40a9-b920-cc4d5d3088dc","IpAddress":"::1","TenantId":1,"UserId":5,"ConnectTime":"2017-07-06T16:38:50.2233465+08:00","Properties":{}}
+DEBUG 2017-07-06 16:38:50,252 [29   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 6252d832-bf4a-40a9-b920-cc4d5d3088dc
+WARN  2017-07-06 16:38:50,918 [22   ] Abp.Logging.LogHelper                    - Can not find 'Tasks' in localization source 'MultiPageProject'!
+WARN  2017-07-06 16:38:50,918 [22   ] Abp.Logging.LogHelper                    - Can not find 'Account' in localization source 'MultiPageProject'!
+DEBUG 2017-07-06 16:38:51,050 [22   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 6252d832-bf4a-40a9-b920-cc4d5d3088dc
+WARN  2017-07-06 16:38:51,196 [42   ] Abp.Logging.LogHelper                    - Can not find 'Tasks' in localization source 'MultiPageProject'!
+WARN  2017-07-06 16:38:51,197 [42   ] Abp.Logging.LogHelper                    - Can not find 'Account' in localization source 'MultiPageProject'!
+DEBUG 2017-07-06 16:38:51,891 [42   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"2cff9fd8-0af5-49a8-acff-dd4b103384e9","IpAddress":"::1","TenantId":1,"UserId":5,"ConnectTime":"2017-07-06T16:38:51.8912621+08:00","Properties":{}}
+DEBUG 2017-07-06 16:38:51,907 [18   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 2cff9fd8-0af5-49a8-acff-dd4b103384e9
+WARN  2017-07-06 16:38:52,433 [23   ] Abp.Logging.LogHelper                    - Can not find 'Tasks' in localization source 'MultiPageProject'!
+WARN  2017-07-06 16:38:52,433 [23   ] Abp.Logging.LogHelper                    - Can not find 'Account' in localization source 'MultiPageProject'!
+DEBUG 2017-07-06 16:38:52,475 [18   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 2cff9fd8-0af5-49a8-acff-dd4b103384e9
+WARN  2017-07-06 16:38:52,594 [42   ] Abp.Logging.LogHelper                    - Can not find 'Tasks' in localization source 'MultiPageProject'!
+WARN  2017-07-06 16:38:52,601 [42   ] Abp.Logging.LogHelper                    - Can not find 'Account' in localization source 'MultiPageProject'!
+DEBUG 2017-07-06 16:38:53,173 [18   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"24359b0b-fc37-4da6-a2ea-05a678099fa4","IpAddress":"::1","TenantId":1,"UserId":5,"ConnectTime":"2017-07-06T16:38:53.173491+08:00","Properties":{}}
+DEBUG 2017-07-06 16:38:53,204 [18   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 24359b0b-fc37-4da6-a2ea-05a678099fa4
+WARN  2017-07-06 16:38:53,908 [41   ] Abp.Logging.LogHelper                    - Can not find 'Tasks' in localization source 'MultiPageProject'!
+WARN  2017-07-06 16:38:53,908 [41   ] Abp.Logging.LogHelper                    - Can not find 'Account' in localization source 'MultiPageProject'!
+DEBUG 2017-07-06 16:38:53,999 [42   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 24359b0b-fc37-4da6-a2ea-05a678099fa4
+WARN  2017-07-06 16:38:54,149 [23   ] Abp.Logging.LogHelper                    - Can not find 'Tasks' in localization source 'MultiPageProject'!
+WARN  2017-07-06 16:38:54,149 [23   ] Abp.Logging.LogHelper                    - Can not find 'Account' in localization source 'MultiPageProject'!
+DEBUG 2017-07-06 16:38:54,878 [22   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"a19aeead-dc4a-4381-b342-23ecc4917492","IpAddress":"::1","TenantId":1,"UserId":5,"ConnectTime":"2017-07-06T16:38:54.8782654+08:00","Properties":{}}
+DEBUG 2017-07-06 16:38:54,890 [18   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: a19aeead-dc4a-4381-b342-23ecc4917492
+WARN  2017-07-06 16:39:58,170 [41   ] Abp.Logging.LogHelper                    - Can not find 'Tasks' in localization source 'MultiPageProject'!
+WARN  2017-07-06 16:39:58,172 [41   ] Abp.Logging.LogHelper                    - Can not find 'Account' in localization source 'MultiPageProject'!
+DEBUG 2017-07-06 16:39:58,239 [30   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: a19aeead-dc4a-4381-b342-23ecc4917492
+WARN  2017-07-06 16:39:58,541 [22   ] Abp.Logging.LogHelper                    - Can not find 'Tasks' in localization source 'MultiPageProject'!
+WARN  2017-07-06 16:39:58,541 [22   ] Abp.Logging.LogHelper                    - Can not find 'Account' in localization source 'MultiPageProject'!
+DEBUG 2017-07-06 16:39:59,194 [22   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"35bd4542-d862-4298-acdd-55e78694f61e","IpAddress":"::1","TenantId":1,"UserId":5,"ConnectTime":"2017-07-06T16:39:59.1942729+08:00","Properties":{}}
+DEBUG 2017-07-06 16:39:59,211 [42   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 35bd4542-d862-4298-acdd-55e78694f61e
+WARN  2017-07-06 16:40:15,163 [18   ] Abp.Logging.LogHelper                    - Can not find 'Tasks' in localization source 'MultiPageProject'!
+WARN  2017-07-06 16:40:15,164 [18   ] Abp.Logging.LogHelper                    - Can not find 'Account' in localization source 'MultiPageProject'!
+DEBUG 2017-07-06 16:40:15,245 [41   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 35bd4542-d862-4298-acdd-55e78694f61e
+WARN  2017-07-06 16:40:15,672 [40   ] Abp.Logging.LogHelper                    - Can not find 'Tasks' in localization source 'MultiPageProject'!
+WARN  2017-07-06 16:40:15,673 [40   ] Abp.Logging.LogHelper                    - Can not find 'Account' in localization source 'MultiPageProject'!
+DEBUG 2017-07-06 16:40:16,166 [50   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"10d8777e-7198-46f0-87d0-7874a3467985","IpAddress":"::1","TenantId":1,"UserId":5,"ConnectTime":"2017-07-06T16:40:16.1668942+08:00","Properties":{}}
+DEBUG 2017-07-06 16:40:16,176 [41   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 10d8777e-7198-46f0-87d0-7874a3467985
+WARN  2017-07-06 16:40:17,333 [42   ] Abp.Logging.LogHelper                    - Can not find 'Tasks' in localization source 'MultiPageProject'!
+WARN  2017-07-06 16:40:17,334 [42   ] Abp.Logging.LogHelper                    - Can not find 'Account' in localization source 'MultiPageProject'!
+DEBUG 2017-07-06 16:40:17,381 [22   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 10d8777e-7198-46f0-87d0-7874a3467985
+WARN  2017-07-06 16:40:17,521 [41   ] Abp.Logging.LogHelper                    - Can not find 'Tasks' in localization source 'MultiPageProject'!
+WARN  2017-07-06 16:40:17,522 [41   ] Abp.Logging.LogHelper                    - Can not find 'Account' in localization source 'MultiPageProject'!
+DEBUG 2017-07-06 16:40:18,317 [42   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"f1a23298-fc1a-4cbb-b400-3bc5b8043b42","IpAddress":"::1","TenantId":1,"UserId":5,"ConnectTime":"2017-07-06T16:40:18.3179007+08:00","Properties":{}}
+DEBUG 2017-07-06 16:40:18,336 [41   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: f1a23298-fc1a-4cbb-b400-3bc5b8043b42
+WARN  2017-07-06 16:40:23,679 [41   ] Abp.Logging.LogHelper                    - Can not find 'Tasks' in localization source 'MultiPageProject'!
+WARN  2017-07-06 16:40:23,680 [41   ] Abp.Logging.LogHelper                    - Can not find 'Account' in localization source 'MultiPageProject'!
+DEBUG 2017-07-06 16:40:23,806 [18   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: f1a23298-fc1a-4cbb-b400-3bc5b8043b42
+WARN  2017-07-06 16:40:24,157 [23   ] Abp.Logging.LogHelper                    - Can not find 'Tasks' in localization source 'MultiPageProject'!
+WARN  2017-07-06 16:40:24,158 [23   ] Abp.Logging.LogHelper                    - Can not find 'Account' in localization source 'MultiPageProject'!
+DEBUG 2017-07-06 16:40:24,623 [18   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"77bdac38-0f1d-43c1-8b74-1e55325c0b41","IpAddress":"::1","TenantId":1,"UserId":5,"ConnectTime":"2017-07-06T16:40:24.623826+08:00","Properties":{}}
+DEBUG 2017-07-06 16:40:24,644 [30   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 77bdac38-0f1d-43c1-8b74-1e55325c0b41
+WARN  2017-07-06 16:40:25,950 [22   ] Abp.Logging.LogHelper                    - Can not find 'Tasks' in localization source 'MultiPageProject'!
+WARN  2017-07-06 16:40:25,952 [22   ] Abp.Logging.LogHelper                    - Can not find 'Account' in localization source 'MultiPageProject'!
+DEBUG 2017-07-06 16:40:26,213 [40   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 77bdac38-0f1d-43c1-8b74-1e55325c0b41
+WARN  2017-07-06 16:40:26,363 [30   ] Abp.Logging.LogHelper                    - Can not find 'Tasks' in localization source 'MultiPageProject'!
+WARN  2017-07-06 16:40:26,364 [30   ] Abp.Logging.LogHelper                    - Can not find 'Account' in localization source 'MultiPageProject'!
+DEBUG 2017-07-06 16:40:26,954 [23   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"6fbadfbf-5cd3-4c2a-9d69-85b63eab5afd","IpAddress":"::1","TenantId":1,"UserId":5,"ConnectTime":"2017-07-06T16:40:26.9540406+08:00","Properties":{}}
+DEBUG 2017-07-06 16:40:26,995 [30   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 6fbadfbf-5cd3-4c2a-9d69-85b63eab5afd
+WARN  2017-07-06 16:40:34,620 [18   ] Abp.Logging.LogHelper                    - Can not find 'Tasks' in localization source 'MultiPageProject'!
+WARN  2017-07-06 16:40:34,621 [18   ] Abp.Logging.LogHelper                    - Can not find 'Account' in localization source 'MultiPageProject'!
+DEBUG 2017-07-06 16:40:34,681 [30   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 6fbadfbf-5cd3-4c2a-9d69-85b63eab5afd
+WARN  2017-07-06 16:40:35,062 [18   ] Abp.Logging.LogHelper                    - Can not find 'Tasks' in localization source 'MultiPageProject'!
+WARN  2017-07-06 16:40:35,063 [18   ] Abp.Logging.LogHelper                    - Can not find 'Account' in localization source 'MultiPageProject'!
+DEBUG 2017-07-06 16:40:35,702 [22   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"0645bad1-1516-4002-9597-3e19f271a000","IpAddress":"::1","TenantId":1,"UserId":5,"ConnectTime":"2017-07-06T16:40:35.7025353+08:00","Properties":{}}
+DEBUG 2017-07-06 16:40:35,714 [22   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 0645bad1-1516-4002-9597-3e19f271a000
+WARN  2017-07-06 16:40:37,023 [44   ] Abp.Logging.LogHelper                    - Can not find 'Tasks' in localization source 'MultiPageProject'!
+WARN  2017-07-06 16:40:37,024 [44   ] Abp.Logging.LogHelper                    - Can not find 'Account' in localization source 'MultiPageProject'!
+DEBUG 2017-07-06 16:40:37,064 [40   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 0645bad1-1516-4002-9597-3e19f271a000
+WARN  2017-07-06 16:40:37,186 [50   ] Abp.Logging.LogHelper                    - Can not find 'Tasks' in localization source 'MultiPageProject'!
+WARN  2017-07-06 16:40:37,186 [50   ] Abp.Logging.LogHelper                    - Can not find 'Account' in localization source 'MultiPageProject'!
+DEBUG 2017-07-06 16:40:37,914 [40   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"a314ae3d-e47d-4409-8ad2-33d878abf556","IpAddress":"::1","TenantId":1,"UserId":5,"ConnectTime":"2017-07-06T16:40:37.914686+08:00","Properties":{}}
+DEBUG 2017-07-06 16:40:37,929 [40   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: a314ae3d-e47d-4409-8ad2-33d878abf556
+WARN  2017-07-06 16:41:03,723 [29   ] Abp.Logging.LogHelper                    - Can not find 'Tasks' in localization source 'MultiPageProject'!
+WARN  2017-07-06 16:41:03,723 [29   ] Abp.Logging.LogHelper                    - Can not find 'Account' in localization source 'MultiPageProject'!
+DEBUG 2017-07-06 16:41:03,768 [44   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: a314ae3d-e47d-4409-8ad2-33d878abf556
+WARN  2017-07-06 16:41:04,061 [41   ] Abp.Logging.LogHelper                    - Can not find 'Tasks' in localization source 'MultiPageProject'!
+WARN  2017-07-06 16:41:04,061 [41   ] Abp.Logging.LogHelper                    - Can not find 'Account' in localization source 'MultiPageProject'!
+DEBUG 2017-07-06 16:41:04,633 [42   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"fec40ac4-b7c9-4955-9728-77a532933f4e","IpAddress":"::1","TenantId":1,"UserId":5,"ConnectTime":"2017-07-06T16:41:04.6333419+08:00","Properties":{}}
+DEBUG 2017-07-06 16:41:04,647 [42   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: fec40ac4-b7c9-4955-9728-77a532933f4e
+WARN  2017-07-06 16:41:13,386 [50   ] Abp.Logging.LogHelper                    - Can not find 'Tasks' in localization source 'MultiPageProject'!
+WARN  2017-07-06 16:41:13,386 [50   ] Abp.Logging.LogHelper                    - Can not find 'Account' in localization source 'MultiPageProject'!
+DEBUG 2017-07-06 16:41:13,431 [22   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: fec40ac4-b7c9-4955-9728-77a532933f4e
+WARN  2017-07-06 16:41:13,829 [29   ] Abp.Logging.LogHelper                    - Can not find 'Tasks' in localization source 'MultiPageProject'!
+WARN  2017-07-06 16:41:13,830 [29   ] Abp.Logging.LogHelper                    - Can not find 'Account' in localization source 'MultiPageProject'!
+DEBUG 2017-07-06 16:41:14,483 [30   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"d0e7ef4d-bc19-437e-8af5-4e761e36d595","IpAddress":"::1","TenantId":1,"UserId":5,"ConnectTime":"2017-07-06T16:41:14.4838745+08:00","Properties":{}}
+DEBUG 2017-07-06 16:41:14,490 [44   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: d0e7ef4d-bc19-437e-8af5-4e761e36d595
+WARN  2017-07-06 16:41:16,745 [41   ] Abp.Logging.LogHelper                    - Can not find 'Tasks' in localization source 'MultiPageProject'!
+WARN  2017-07-06 16:41:16,745 [41   ] Abp.Logging.LogHelper                    - Can not find 'Account' in localization source 'MultiPageProject'!
+DEBUG 2017-07-06 16:41:16,783 [22   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: d0e7ef4d-bc19-437e-8af5-4e761e36d595
+WARN  2017-07-06 16:41:16,892 [41   ] Abp.Logging.LogHelper                    - Can not find 'Tasks' in localization source 'MultiPageProject'!
+WARN  2017-07-06 16:41:16,893 [41   ] Abp.Logging.LogHelper                    - Can not find 'Account' in localization source 'MultiPageProject'!
+DEBUG 2017-07-06 16:41:17,658 [43   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"d2178a53-0fde-4667-a91c-8d1352a60b62","IpAddress":"::1","TenantId":1,"UserId":5,"ConnectTime":"2017-07-06T16:41:17.6585202+08:00","Properties":{}}
+DEBUG 2017-07-06 16:41:17,674 [23   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: d2178a53-0fde-4667-a91c-8d1352a60b62
+WARN  2017-07-06 16:41:18,481 [42   ] Abp.Logging.LogHelper                    - Can not find 'Tasks' in localization source 'MultiPageProject'!
+WARN  2017-07-06 16:41:18,482 [42   ] Abp.Logging.LogHelper                    - Can not find 'Account' in localization source 'MultiPageProject'!
+DEBUG 2017-07-06 16:41:18,544 [42   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: d2178a53-0fde-4667-a91c-8d1352a60b62
+WARN  2017-07-06 16:41:18,652 [22   ] Abp.Logging.LogHelper                    - Can not find 'Tasks' in localization source 'MultiPageProject'!
+WARN  2017-07-06 16:41:18,652 [22   ] Abp.Logging.LogHelper                    - Can not find 'Account' in localization source 'MultiPageProject'!
+DEBUG 2017-07-06 16:41:19,385 [42   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"871939d4-5977-4c04-af32-19ba85f6c492","IpAddress":"::1","TenantId":1,"UserId":5,"ConnectTime":"2017-07-06T16:41:19.3854735+08:00","Properties":{}}
+DEBUG 2017-07-06 16:41:19,431 [44   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 871939d4-5977-4c04-af32-19ba85f6c492
+DEBUG 2017-07-06 16:41:21,898 [44   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 871939d4-5977-4c04-af32-19ba85f6c492
+DEBUG 2017-07-06 16:41:23,923 [41   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"f769db07-e720-48f6-a95f-e3ed4a7edd9c","IpAddress":"::1","TenantId":1,"UserId":5,"ConnectTime":"2017-07-06T16:41:23.923443+08:00","Properties":{}}
+DEBUG 2017-07-06 16:41:23,951 [30   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: f769db07-e720-48f6-a95f-e3ed4a7edd9c
+WARN  2017-07-06 16:41:25,263 [42   ] Abp.Logging.LogHelper                    - Can not find 'Tasks' in localization source 'MultiPageProject'!
+WARN  2017-07-06 16:41:25,264 [42   ] Abp.Logging.LogHelper                    - Can not find 'Account' in localization source 'MultiPageProject'!
+DEBUG 2017-07-06 16:41:25,308 [41   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: f769db07-e720-48f6-a95f-e3ed4a7edd9c
+WARN  2017-07-06 16:41:25,766 [42   ] Abp.Logging.LogHelper                    - Can not find 'Tasks' in localization source 'MultiPageProject'!
+WARN  2017-07-06 16:41:25,766 [42   ] Abp.Logging.LogHelper                    - Can not find 'Account' in localization source 'MultiPageProject'!
+WARN  2017-07-06 16:41:25,952 [29   ] Abp.Logging.LogHelper                    - Can not find 'Tasks' in localization source 'MultiPageProject'!
+WARN  2017-07-06 16:41:25,953 [29   ] Abp.Logging.LogHelper                    - Can not find 'Account' in localization source 'MultiPageProject'!
+WARN  2017-07-06 16:41:26,238 [50   ] Abp.Logging.LogHelper                    - Can not find 'Tasks' in localization source 'MultiPageProject'!
+WARN  2017-07-06 16:41:26,239 [50   ] Abp.Logging.LogHelper                    - Can not find 'Account' in localization source 'MultiPageProject'!
+DEBUG 2017-07-06 16:41:26,608 [18   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"72961765-e627-466c-a8c6-693954593bcf","IpAddress":"::1","TenantId":1,"UserId":5,"ConnectTime":"2017-07-06T16:41:26.6084967+08:00","Properties":{}}
+DEBUG 2017-07-06 16:41:26,618 [43   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 72961765-e627-466c-a8c6-693954593bcf
+WARN  2017-07-06 16:43:15,648 [41   ] Abp.Logging.LogHelper                    - Can not find 'Tasks' in localization source 'MultiPageProject'!
+WARN  2017-07-06 16:43:15,649 [41   ] Abp.Logging.LogHelper                    - Can not find 'Account' in localization source 'MultiPageProject'!
+DEBUG 2017-07-06 16:43:15,713 [23   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 72961765-e627-466c-a8c6-693954593bcf
+WARN  2017-07-06 16:43:16,091 [22   ] Abp.Logging.LogHelper                    - Can not find 'Tasks' in localization source 'MultiPageProject'!
+WARN  2017-07-06 16:43:16,092 [22   ] Abp.Logging.LogHelper                    - Can not find 'Account' in localization source 'MultiPageProject'!
+DEBUG 2017-07-06 16:43:16,750 [30   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"16165ec6-2310-483a-8a36-fff5479fd31a","IpAddress":"::1","TenantId":1,"UserId":5,"ConnectTime":"2017-07-06T16:43:16.7505104+08:00","Properties":{}}
+DEBUG 2017-07-06 16:43:16,769 [23   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 16165ec6-2310-483a-8a36-fff5479fd31a
+WARN  2017-07-06 16:43:22,060 [50   ] Abp.Logging.LogHelper                    - Can not find 'Tasks' in localization source 'MultiPageProject'!
+WARN  2017-07-06 16:43:22,061 [50   ] Abp.Logging.LogHelper                    - Can not find 'Account' in localization source 'MultiPageProject'!
+DEBUG 2017-07-06 16:43:22,117 [42   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 16165ec6-2310-483a-8a36-fff5479fd31a
+WARN  2017-07-06 16:43:22,271 [29   ] Abp.Logging.LogHelper                    - Can not find 'Tasks' in localization source 'MultiPageProject'!
+WARN  2017-07-06 16:43:22,285 [29   ] Abp.Logging.LogHelper                    - Can not find 'Account' in localization source 'MultiPageProject'!
+DEBUG 2017-07-06 16:43:22,762 [43   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"85b0b458-f9ea-42fb-a796-d695f5c1cf32","IpAddress":"::1","TenantId":1,"UserId":5,"ConnectTime":"2017-07-06T16:43:22.7625723+08:00","Properties":{}}
+DEBUG 2017-07-06 16:43:22,792 [43   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 85b0b458-f9ea-42fb-a796-d695f5c1cf32
+WARN  2017-07-06 16:44:00,164 [43   ] Abp.Logging.LogHelper                    - Can not find 'Tasks' in localization source 'MultiPageProject'!
+WARN  2017-07-06 16:44:00,164 [43   ] Abp.Logging.LogHelper                    - Can not find 'Account' in localization source 'MultiPageProject'!
+DEBUG 2017-07-06 16:44:00,217 [50   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 85b0b458-f9ea-42fb-a796-d695f5c1cf32
+WARN  2017-07-06 16:44:00,689 [29   ] Abp.Logging.LogHelper                    - Can not find 'Tasks' in localization source 'MultiPageProject'!
+WARN  2017-07-06 16:44:00,689 [29   ] Abp.Logging.LogHelper                    - Can not find 'Account' in localization source 'MultiPageProject'!
+DEBUG 2017-07-06 16:44:01,285 [43   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"0ca23513-2e32-499f-b6bf-7dd2f29be0a2","IpAddress":"::1","TenantId":1,"UserId":5,"ConnectTime":"2017-07-06T16:44:01.2853009+08:00","Properties":{}}
+DEBUG 2017-07-06 16:44:01,308 [41   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 0ca23513-2e32-499f-b6bf-7dd2f29be0a2
+WARN  2017-07-06 16:44:03,276 [22   ] Abp.Logging.LogHelper                    - Can not find 'Tasks' in localization source 'MultiPageProject'!
+WARN  2017-07-06 16:44:03,277 [22   ] Abp.Logging.LogHelper                    - Can not find 'Account' in localization source 'MultiPageProject'!
+DEBUG 2017-07-06 16:44:03,330 [44   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 0ca23513-2e32-499f-b6bf-7dd2f29be0a2
+WARN  2017-07-06 16:44:03,584 [40   ] Abp.Logging.LogHelper                    - Can not find 'Tasks' in localization source 'MultiPageProject'!
+WARN  2017-07-06 16:44:03,584 [40   ] Abp.Logging.LogHelper                    - Can not find 'Account' in localization source 'MultiPageProject'!
+WARN  2017-07-06 16:44:03,645 [29   ] Abp.Logging.LogHelper                    - Can not find 'Tasks' in localization source 'MultiPageProject'!
+WARN  2017-07-06 16:44:03,645 [29   ] Abp.Logging.LogHelper                    - Can not find 'Account' in localization source 'MultiPageProject'!
+WARN  2017-07-06 16:44:03,775 [18   ] Abp.Logging.LogHelper                    - Can not find 'Tasks' in localization source 'MultiPageProject'!
+WARN  2017-07-06 16:44:03,776 [18   ] Abp.Logging.LogHelper                    - Can not find 'Account' in localization source 'MultiPageProject'!
+WARN  2017-07-06 16:44:04,015 [29   ] Abp.Logging.LogHelper                    - Can not find 'Tasks' in localization source 'MultiPageProject'!
+WARN  2017-07-06 16:44:04,015 [29   ] Abp.Logging.LogHelper                    - Can not find 'Account' in localization source 'MultiPageProject'!
+WARN  2017-07-06 16:44:04,174 [40   ] Abp.Logging.LogHelper                    - Can not find 'Tasks' in localization source 'MultiPageProject'!
+WARN  2017-07-06 16:44:04,174 [40   ] Abp.Logging.LogHelper                    - Can not find 'Account' in localization source 'MultiPageProject'!
+WARN  2017-07-06 16:44:04,548 [50   ] Abp.Logging.LogHelper                    - Can not find 'Tasks' in localization source 'MultiPageProject'!
+WARN  2017-07-06 16:44:04,548 [50   ] Abp.Logging.LogHelper                    - Can not find 'Account' in localization source 'MultiPageProject'!
+WARN  2017-07-06 16:44:04,657 [29   ] Abp.Logging.LogHelper                    - Can not find 'Tasks' in localization source 'MultiPageProject'!
+WARN  2017-07-06 16:44:04,658 [29   ] Abp.Logging.LogHelper                    - Can not find 'Account' in localization source 'MultiPageProject'!
+WARN  2017-07-06 16:44:04,831 [50   ] Abp.Logging.LogHelper                    - Can not find 'Tasks' in localization source 'MultiPageProject'!
+WARN  2017-07-06 16:44:04,831 [50   ] Abp.Logging.LogHelper                    - Can not find 'Account' in localization source 'MultiPageProject'!
+WARN  2017-07-06 16:44:04,953 [30   ] Abp.Logging.LogHelper                    - Can not find 'Tasks' in localization source 'MultiPageProject'!
+WARN  2017-07-06 16:44:04,953 [30   ] Abp.Logging.LogHelper                    - Can not find 'Account' in localization source 'MultiPageProject'!
+WARN  2017-07-06 16:44:05,034 [18   ] Abp.Logging.LogHelper                    - Can not find 'Tasks' in localization source 'MultiPageProject'!
+WARN  2017-07-06 16:44:05,035 [18   ] Abp.Logging.LogHelper                    - Can not find 'Account' in localization source 'MultiPageProject'!
+WARN  2017-07-06 16:44:05,127 [30   ] Abp.Logging.LogHelper                    - Can not find 'Tasks' in localization source 'MultiPageProject'!
+WARN  2017-07-06 16:44:05,128 [30   ] Abp.Logging.LogHelper                    - Can not find 'Account' in localization source 'MultiPageProject'!
+WARN  2017-07-06 16:44:05,458 [29   ] Abp.Logging.LogHelper                    - Can not find 'Tasks' in localization source 'MultiPageProject'!
+WARN  2017-07-06 16:44:05,459 [29   ] Abp.Logging.LogHelper                    - Can not find 'Account' in localization source 'MultiPageProject'!
+WARN  2017-07-06 16:44:05,738 [23   ] Abp.Logging.LogHelper                    - Can not find 'Tasks' in localization source 'MultiPageProject'!
+WARN  2017-07-06 16:44:05,738 [23   ] Abp.Logging.LogHelper                    - Can not find 'Account' in localization source 'MultiPageProject'!
+WARN  2017-07-06 16:44:06,042 [42   ] Abp.Logging.LogHelper                    - Can not find 'Tasks' in localization source 'MultiPageProject'!
+WARN  2017-07-06 16:44:06,042 [42   ] Abp.Logging.LogHelper                    - Can not find 'Account' in localization source 'MultiPageProject'!
+WARN  2017-07-06 16:44:06,160 [43   ] Abp.Logging.LogHelper                    - Can not find 'Tasks' in localization source 'MultiPageProject'!
+WARN  2017-07-06 16:44:06,161 [43   ] Abp.Logging.LogHelper                    - Can not find 'Account' in localization source 'MultiPageProject'!
+WARN  2017-07-06 16:44:06,296 [41   ] Abp.Logging.LogHelper                    - Can not find 'Tasks' in localization source 'MultiPageProject'!
+WARN  2017-07-06 16:44:06,297 [41   ] Abp.Logging.LogHelper                    - Can not find 'Account' in localization source 'MultiPageProject'!
+WARN  2017-07-06 16:44:06,873 [18   ] Abp.Logging.LogHelper                    - Can not find 'Tasks' in localization source 'MultiPageProject'!
+WARN  2017-07-06 16:44:06,874 [18   ] Abp.Logging.LogHelper                    - Can not find 'Account' in localization source 'MultiPageProject'!
+DEBUG 2017-07-06 16:44:06,933 [50   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"ebbfe5e5-9ee5-442d-a9c5-3f4fe4607cb2","IpAddress":"::1","TenantId":1,"UserId":5,"ConnectTime":"2017-07-06T16:44:06.9334323+08:00","Properties":{}}
+DEBUG 2017-07-06 16:44:06,978 [43   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: ebbfe5e5-9ee5-442d-a9c5-3f4fe4607cb2
+WARN  2017-07-06 16:44:07,353 [18   ] Abp.Logging.LogHelper                    - Can not find 'Tasks' in localization source 'MultiPageProject'!
+WARN  2017-07-06 16:44:07,354 [18   ] Abp.Logging.LogHelper                    - Can not find 'Account' in localization source 'MultiPageProject'!
+DEBUG 2017-07-06 16:44:21,830 [23   ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2017-07-06 16:44:21,832 [23   ] Abp.BackgroundJobs.BackgroundJobManager  - Stop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-07-06 16:44:21,832 [23   ] Abp.BackgroundJobs.BackgroundJobManager  - WaitToStop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-07-06 16:44:21,832 [23   ] Abp.Modules.AbpModuleManager             - Shutting down completed.

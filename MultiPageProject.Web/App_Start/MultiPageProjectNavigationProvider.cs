@@ -53,6 +53,13 @@ namespace MultiPageProject.Web
                         url: "Tasks",
                         icon: "fa fa-info"
                         )
+                ).AddItem(
+                    new MenuItemDefinition(
+                        "Account",
+                        L("Account"),
+                        url: "Account",
+                        icon: "fa fa-info"
+                        )
                 );
         }
 
