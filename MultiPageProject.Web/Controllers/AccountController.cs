@@ -28,6 +28,7 @@ using Microsoft.Owin.Security;
 using Microsoft.Owin.Security.DataProtection;
 using System.Web.Helpers;
 using System.Security.Cryptography;
+using System.Diagnostics;
 
 namespace MultiPageProject.Web.Controllers
 {
@@ -495,7 +496,6 @@ namespace MultiPageProject.Web.Controllers
 
             List<Role> roles = _roleManager.Roles.ToList();
             ViewData["Roles"] = roles;
-            //_userManager.pa
 
             return View(users);
         }
@@ -513,15 +513,12 @@ namespace MultiPageProject.Web.Controllers
                 string pwd = new PasswordHasher().HashPassword(password);
                 user.Password = pwd;
                 _userManager.Update(user);
-
-                //Rfc2898DeriveBytes
                 return RedirectToAction("Index");
             } else {
                 return RedirectToAction("/Error");
             }
         }
 
-        
         public async Task<ActionResult> EditRoles(long id) {
             List<RoleChecked> rols = new List<RoleChecked>();
 
@@ -536,18 +533,41 @@ namespace MultiPageProject.Web.Controllers
                 rols.Add(new RoleChecked() { Role = item, Checked = userRoles.Contains(item.Id) });
             }
 
-            EditRolesEditViewModel viewModel = new EditRolesEditViewModel() { ID = id, RoleStatus = rols };
+            EditRolesEditViewModel viewModel = new EditRolesEditViewModel() { ID = id, RoleStatus = rols, UserName = user.UserName };
             return View(viewModel);
         }
 
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult EditRoles() {
-            return View();
+        public async Task<ActionResult> EditRoles(EdidRolesInput input) {
+            User user = await _userManager.FindByIdAsync(input.id);
+            if (user == null)
+                throw new ArgumentNullException("找不到用户!");
+            //IdentityResult result = await _roleManager.CreateAsync(new Role() { Name = "Test1" });
+
+            if(!input.RoleIDs.IsNullOrWhiteSpace()) { 
+                IdentityResult setResult = await _userManager.SetRoles(user, input.RoleIDs.Split(","));
+                if (!setResult.Succeeded) {
+                    throw new Exception("设置失败");
+                }
+            } else {
+                List<string> roles = await _userManager.GetRolesAsync(user.Id) as List<string>;
+                IdentityResult re = await _userManager.RemoveFromRolesAsync(user.Id, roles.ToArray());
+                if (!re.Succeeded) {
+                    throw new Exception("删除角色失败了!!");
+                }
+            }
+
+
+            return RedirectToAction("/");
         }
 
 
         #endregion
+    }
+    public class EdidRolesInput {
+        public long id { get; set; }
+        public string RoleIDs { get; set; }
     }
 }

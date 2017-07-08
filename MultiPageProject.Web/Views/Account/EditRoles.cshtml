@@ -4,7 +4,7 @@
     ViewBag.Title = "EditRoles";
 }
 
-<h2>[currentUserName]</h2>
+<h2>@Model.UserName</h2>
 
 <div class="panel panel-info">
     <div class="panel-heading">
@@ -13,6 +13,7 @@
 
 @using(Html.BeginForm()) {
     @Html.AntiForgeryToken()
+    @Html.HiddenFor(c => c.ID)
     <table class="table">
         <thead>
             <tr>
@@ -28,12 +29,13 @@
                     <td>@item.Role.Id</td>
                     <td>@item.Role.DisplayName</td>
                     <td>@item.Role.IsDefault</td>
-                    <td><input type="checkbox" @item.CheckedValue /></td>
+                    <td><input type="checkbox" name="RoleIDs" value="@item.Role.Name" @item.CheckedValue /></td>
                 </tr>
             }
         </tbody>
     </table>
-    @Html.ActionLink("Save", "EditRoles", null,new { @class = "btn btn-warning" })
+    <input type="submit" class="btn btn-warning" value="SAVE" />
+    <span></span>
     @Html.ActionLink("Cancel", "Index", null, new { @class = "btn btn-info" })
 }
 </div>

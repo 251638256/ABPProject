@@ -7,6 +7,7 @@ using System.Web;
 namespace MultiPageProject.Web.Models.Account {
     public class EditRolesEditViewModel {
         public long ID { get; set; }
+        public string UserName { get; set; }
         public List<RoleChecked> RoleStatus { get; set; }
     }
 
