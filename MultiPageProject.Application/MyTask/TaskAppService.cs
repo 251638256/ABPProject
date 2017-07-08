@@ -9,21 +9,37 @@ using Abp.Timing;
 using Abp.AutoMapper;
 using AutoMapper;
 using MultiPageProject.Tasks.IRepositories;
+using Abp.Authorization;
+using Microsoft.AspNet.Identity;
+using MultiPageProject.Users;
+using MultiPageProject.Users.Dto;
 
 namespace MultiPageProject.MyTask {
+    [AbpAuthorize("Administration")]
     public class TaskAppService : MultiPageProjectAppServiceBase, ITaskAppService {
 
         private readonly IRepository<MyTasks.Task> _taskRepository;
-
         private readonly IBackendTaskRepository _myTaskRepository;
+        private readonly UserManager _userManager;
+        private readonly IPermissionManager _permissionManager;
 
         /// <summary>
         ///In constructor, we can get needed classes/interfaces.
         ///They are sent here by dependency injection system automatically.
         /// </summary>
-        public TaskAppService(IRepository<MyTasks.Task> taskRepository, IBackendTaskRepository myTaskRepository) {
+        public TaskAppService(IRepository<MyTasks.Task> taskRepository, IBackendTaskRepository myTaskRepository,
+            UserManager userManager, IPermissionManager permissionManager) {
             _taskRepository = taskRepository;
             _myTaskRepository = myTaskRepository;
+            _userManager = userManager;
+            _permissionManager = permissionManager;
+        }
+
+        public async Task ProhibitPermission(ProhibitPermissionInput input) {
+            var user = await _userManager.GetUserByIdAsync(input.UserId);
+            var permission = _permissionManager.GetPermission(input.PermissionName);
+
+            await _userManager.ProhibitPermissionAsync(user, permission);
         }
 
         public GetTasksOutput GetTasks(GetTasksInput input) {

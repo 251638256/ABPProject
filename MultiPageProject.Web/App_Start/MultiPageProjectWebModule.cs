@@ -31,6 +31,8 @@ namespace MultiPageProject.Web
             //Configure navigation/menu
             Configuration.Navigation.Providers.Add<MultiPageProjectNavigationProvider>();
 
+            Configuration.Authorization.Providers.Add<MyAuthorizationProvider>();
+
             // 不关闭的话每一个表单都需要使用AntiForgery
             //Configuration.Modules.AbpWeb().AntiForgery.IsEnabled = false;
 

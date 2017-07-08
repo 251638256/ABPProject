@@ -40,6 +40,8 @@ namespace MultiPageProject.Web.Controllers
         private readonly IUnitOfWorkManager _unitOfWorkManager;
         private readonly IMultiTenancyConfig _multiTenancyConfig;
         private readonly LogInManager _logInManager;
+        //private readonly IPermissionChecker _Permission;
+        private readonly IPermissionManager _PermissionManager;
 
         private IAuthenticationManager AuthenticationManager
         {
@@ -55,7 +57,9 @@ namespace MultiPageProject.Web.Controllers
             RoleManager roleManager,
             IUnitOfWorkManager unitOfWorkManager,
             IMultiTenancyConfig multiTenancyConfig,
-            LogInManager logInManager)
+            LogInManager logInManager,
+            IPermissionManager permissionMer
+            )
         {
             _tenantManager = tenantManager;
             _userManager = userManager;
@@ -63,6 +67,7 @@ namespace MultiPageProject.Web.Controllers
             _unitOfWorkManager = unitOfWorkManager;
             _multiTenancyConfig = multiTenancyConfig;
             _logInManager = logInManager;
+            _PermissionManager = permissionMer;
         }
 
         #region Login / Logout
@@ -537,7 +542,6 @@ namespace MultiPageProject.Web.Controllers
             return View(viewModel);
         }
 
-
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<ActionResult> EditRoles(EdidRolesInput input) {
@@ -552,8 +556,9 @@ namespace MultiPageProject.Web.Controllers
                     throw new Exception("设置失败");
                 }
             } else {
-                List<string> roles = await _userManager.GetRolesAsync(user.Id) as List<string>;
+                var roles = await _userManager.GetRolesAsync(user.Id);
                 IdentityResult re = await _userManager.RemoveFromRolesAsync(user.Id, roles.ToArray());
+                //_userManager.reset
                 if (!re.Succeeded) {
                     throw new Exception("删除角色失败了!!");
                 }
@@ -561,6 +566,25 @@ namespace MultiPageProject.Web.Controllers
 
 
             return RedirectToAction("/");
+        }
+
+        public async Task<ActionResult> UserPermissions() {
+            var permissions = _PermissionManager.GetAllPermissions();
+            //
+            //await _roleManager.SetGrantedPermissionsAsync(2, permissions);
+
+            var user = await _userManager.GetUserByIdAsync(3);
+
+            await _userManager.SetGrantedPermissionsAsync(user, permissions);
+
+            // 使用用户设置权限
+
+            return Content("看到这句话就是成功了");
+        }
+        
+        public ActionResult RolePermissions() {
+
+            return Content("Real Content");
         }
 
 

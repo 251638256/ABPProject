@@ -7,12 +7,13 @@ namespace MultiPageProject {
     public class MyAuthorizationProvider : AuthorizationProvider {
 
         public override void SetPermissions(IPermissionDefinitionContext context) {
-            var administration = context.CreatePermission("Administration");
 
-            var userManagement = administration.CreateChildPermission("Administration.UserManagement");
-            userManagement.CreateChildPermission("Administration.UserManagement.CreateUser");
+            var administration = context.CreatePermission("我的权限AA");
 
-            var roleManagement = administration.CreateChildPermission("Administration.RoleManagement");
+            //var userManagement = administration.CreateChildPermission("Administration.UserManagement");
+            //userManagement.CreateChildPermission("Administration.UserManagement.CreateUser");
+
+            //var roleManagement = administration.CreateChildPermission("Administration.RoleManagement");
         }
     }
 }

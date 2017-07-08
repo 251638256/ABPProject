@@ -41,7 +41,7 @@ namespace MultiPageProject
 
             IocManager.RegisterAssemblyByConvention(Assembly.GetExecutingAssembly());
 
-            Configuration.Authorization.Providers.Add<MyAuthorizationProvider>();
+            //Configuration.Authorization.Providers.Add<MyAuthorizationProvider>();
         }
     }
 }
