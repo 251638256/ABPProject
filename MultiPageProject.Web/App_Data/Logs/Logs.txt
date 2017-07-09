@@ -6865,3 +6865,172 @@ WARN  2017-07-09 11:19:43,941 [49   ] Abp.Logging.LogHelper                    -
 DEBUG 2017-07-09 11:19:44,603 [7    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"3c9c206f-3dd8-4c97-8345-4d03814873b4","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2017-07-09T11:19:44.6028926+08:00","Properties":{}}
 DEBUG 2017-07-09 11:19:44,614 [7    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 3c9c206f-3dd8-4c97-8345-4d03814873b4
 DEBUG 2017-07-09 11:31:25,678 [49   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is reconnected: {"ConnectionId":"3c9c206f-3dd8-4c97-8345-4d03814873b4","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2017-07-09T11:19:44.6028926+08:00","Properties":{}}
+DEBUG 2017-07-09 12:56:52,299 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-07-09 12:56:52,317 [1    ] Abp.Modules.AbpModuleManager             - Found 16 ABP modules in total.
+DEBUG 2017-07-09 12:56:52,326 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MultiPageProject.Web.MultiPageProjectWebModule, MultiPageProject.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-09 12:56:52,330 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MultiPageProject.MultiPageProjectDataModule, MultiPageProject.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-09 12:56:52,330 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-09 12:56:52,332 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-09 12:56:52,333 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-09 12:56:52,333 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-09 12:56:52,334 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-09 12:56:52,334 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MultiPageProject.MultiPageProjectCoreModule, MultiPageProject.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-09 12:56:52,338 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MultiPageProject.MultiPageProjectApplicationModule, MultiPageProject.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-09 12:56:52,338 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-09 12:56:52,338 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MultiPageProject.Api.MultiPageProjectWebApiModule, MultiPageProject.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-09 12:56:52,338 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-09 12:56:52,339 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-09 12:56:52,339 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-09 12:56:52,339 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-09 12:56:52,340 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-09 12:56:52,352 [1    ] Abp.Modules.AbpModuleManager             - 16 modules loaded.
+DEBUG 2017-07-09 12:56:52,574 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-07-09 12:56:52,574 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-07-09 12:56:52,574 [1    ] o.Configuration.LanguageManagementConfig - Converted MultiPageProject (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-07-09 12:56:52,575 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-07-09 12:56:52,976 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: MultiPageProject.EntityFramework.MultiPageProjectDbContext, MultiPageProject.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-09 12:56:55,035 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-07-09 12:56:55,043 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-07-09 12:56:55,050 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-07-09 12:56:55,052 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: MultiPageProject
+DEBUG 2017-07-09 12:56:55,053 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-07-09 12:56:55,159 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-07-09 12:56:55,215 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 7 classes define auto mapping attributes
+DEBUG 2017-07-09 12:56:55,215 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MultiPageProject.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-07-09 12:56:55,220 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MultiPageProject.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-07-09 12:56:55,220 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MultiPageProject.Users.Dto.CreateUserInput
+DEBUG 2017-07-09 12:56:55,220 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MultiPageProject.Users.Dto.UserListDto
+DEBUG 2017-07-09 12:56:55,221 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MultiPageProject.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2017-07-09 12:56:55,221 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MultiPageProject.MultiTenancy.Dto.TenantListDto
+DEBUG 2017-07-09 12:56:55,221 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MultiPageProject.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-07-09 12:56:57,283 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MultiPageProject.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-07-09 12:56:57,284 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MultiPageProject.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-07-09 12:56:57,285 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MultiPageProject.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-07-09 12:56:57,286 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MultiPageProject.MyTask.ITaskAppService' with service name 'app/task'.
+DEBUG 2017-07-09 12:56:57,287 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MultiPageProject.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+WARN  2017-07-09 12:57:08,779 [9    ] Abp.Logging.LogHelper                    - Can not find 'Account' in localization source 'MultiPageProject'!
+WARN  2017-07-09 12:57:12,565 [9    ] Abp.Logging.LogHelper                    - Can not find 'Account' in localization source 'MultiPageProject'!
+DEBUG 2017-07-09 12:57:14,837 [10   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"ada8322f-4488-4375-beea-60f1a2dccb37","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2017-07-09T12:57:14.8277907+08:00","Properties":{}}
+DEBUG 2017-07-09 12:57:15,416 [15   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: ada8322f-4488-4375-beea-60f1a2dccb37
+WARN  2017-07-09 12:57:37,943 [15   ] Abp.Logging.LogHelper                    - Can not find 'Account' in localization source 'MultiPageProject'!
+DEBUG 2017-07-09 12:57:38,079 [13   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: ada8322f-4488-4375-beea-60f1a2dccb37
+WARN  2017-07-09 12:57:38,369 [15   ] Abp.Logging.LogHelper                    - Can not find 'Account' in localization source 'MultiPageProject'!
+DEBUG 2017-07-09 12:57:39,321 [10   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"35f622ee-611f-4184-a0e9-b88424d356ec","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2017-07-09T12:57:39.3212642+08:00","Properties":{}}
+DEBUG 2017-07-09 12:57:39,331 [13   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 35f622ee-611f-4184-a0e9-b88424d356ec
+DEBUG 2017-07-09 18:21:34,353 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-07-09 18:21:34,391 [1    ] Abp.Modules.AbpModuleManager             - Found 16 ABP modules in total.
+DEBUG 2017-07-09 18:21:34,398 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MultiPageProject.Web.MultiPageProjectWebModule, MultiPageProject.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-09 18:21:34,400 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MultiPageProject.MultiPageProjectDataModule, MultiPageProject.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-09 18:21:34,400 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-09 18:21:34,400 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-09 18:21:34,400 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-09 18:21:34,400 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-09 18:21:34,401 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-09 18:21:34,401 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MultiPageProject.MultiPageProjectCoreModule, MultiPageProject.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-09 18:21:34,401 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MultiPageProject.MultiPageProjectApplicationModule, MultiPageProject.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-09 18:21:34,401 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-09 18:21:34,401 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MultiPageProject.Api.MultiPageProjectWebApiModule, MultiPageProject.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-09 18:21:34,401 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-09 18:21:34,402 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-09 18:21:34,402 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-09 18:21:34,402 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-09 18:21:34,402 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-09 18:21:34,405 [1    ] Abp.Modules.AbpModuleManager             - 16 modules loaded.
+DEBUG 2017-07-09 18:21:35,047 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-07-09 18:21:35,047 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-07-09 18:21:35,047 [1    ] o.Configuration.LanguageManagementConfig - Converted MultiPageProject (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-07-09 18:21:35,047 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-07-09 18:21:35,687 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: MultiPageProject.EntityFramework.MultiPageProjectDbContext, MultiPageProject.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-09 18:21:38,089 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-07-09 18:21:38,099 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-07-09 18:21:38,104 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-07-09 18:21:38,106 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: MultiPageProject
+DEBUG 2017-07-09 18:21:38,108 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-07-09 18:21:38,226 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-07-09 18:21:38,285 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 7 classes define auto mapping attributes
+DEBUG 2017-07-09 18:21:38,285 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MultiPageProject.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-07-09 18:21:38,288 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MultiPageProject.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-07-09 18:21:38,288 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MultiPageProject.Users.Dto.CreateUserInput
+DEBUG 2017-07-09 18:21:38,288 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MultiPageProject.Users.Dto.UserListDto
+DEBUG 2017-07-09 18:21:38,288 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MultiPageProject.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2017-07-09 18:21:38,288 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MultiPageProject.MultiTenancy.Dto.TenantListDto
+DEBUG 2017-07-09 18:21:38,288 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MultiPageProject.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-07-09 18:21:40,308 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MultiPageProject.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-07-09 18:21:40,309 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MultiPageProject.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-07-09 18:21:40,310 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MultiPageProject.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-07-09 18:21:40,312 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MultiPageProject.MyTask.ITaskAppService' with service name 'app/task'.
+DEBUG 2017-07-09 18:21:40,314 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MultiPageProject.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+WARN  2017-07-09 18:21:47,244 [7    ] Abp.Logging.LogHelper                    - Abp.Authorization.AbpAuthorizationException: 当前用户没有登录到系统！
+   在 Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   在 System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   在 System.Threading.Tasks.Task.Execute()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   在 Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo)
+   在 Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+Abp.Authorization.AbpAuthorizationException: 当前用户没有登录到系统！
+   在 Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   在 System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   在 System.Threading.Tasks.Task.Execute()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   在 Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo)
+   在 Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+WARN  2017-07-09 18:21:52,278 [12   ] Abp.Logging.LogHelper                    - Can not find 'Account' in localization source 'MultiPageProject'!
+WARN  2017-07-09 18:21:58,687 [11   ] Abp.Logging.LogHelper                    - Can not find 'Account' in localization source 'MultiPageProject'!
+DEBUG 2017-07-09 18:22:00,473 [14   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"00f498c1-ef89-484c-9690-1cd64b9e3d3f","IpAddress":"::1","TenantId":1,"UserId":null,"ConnectTime":"2017-07-09T18:22:00.4616535+08:00","Properties":{}}
+DEBUG 2017-07-09 18:22:00,536 [11   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 00f498c1-ef89-484c-9690-1cd64b9e3d3f
+WARN  2017-07-09 18:22:13,284 [11   ] Abp.Logging.LogHelper                    - Can not find 'Account' in localization source 'MultiPageProject'!
+WARN  2017-07-09 18:22:13,777 [7    ] Abp.Logging.LogHelper                    - Can not find 'Account' in localization source 'MultiPageProject'!
+DEBUG 2017-07-09 18:22:14,635 [12   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"742b70af-6e2b-4421-8438-72b75cc04820","IpAddress":"::1","TenantId":1,"UserId":3,"ConnectTime":"2017-07-09T18:22:14.634885+08:00","Properties":{}}
+DEBUG 2017-07-09 18:22:14,653 [17   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 742b70af-6e2b-4421-8438-72b75cc04820
+WARN  2017-07-09 18:22:19,135 [12   ] Abp.Logging.LogHelper                    - Can not find 'Account' in localization source 'MultiPageProject'!
+DEBUG 2017-07-09 18:22:19,228 [7    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 742b70af-6e2b-4421-8438-72b75cc04820
+WARN  2017-07-09 18:22:19,433 [7    ] Abp.Logging.LogHelper                    - Can not find 'Account' in localization source 'MultiPageProject'!
+DEBUG 2017-07-09 18:22:19,919 [14   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"dc76bc6a-bc51-437a-84d3-515f1e3c95e7","IpAddress":"::1","TenantId":1,"UserId":3,"ConnectTime":"2017-07-09T18:22:19.9194515+08:00","Properties":{}}
+DEBUG 2017-07-09 18:22:19,935 [14   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: dc76bc6a-bc51-437a-84d3-515f1e3c95e7
+DEBUG 2017-07-09 18:23:06,533 [17   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 00f498c1-ef89-484c-9690-1cd64b9e3d3f
+DEBUG 2017-07-09 18:23:18,039 [19   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is reconnected: {"ConnectionId":"dc76bc6a-bc51-437a-84d3-515f1e3c95e7","IpAddress":"::1","TenantId":1,"UserId":3,"ConnectTime":"2017-07-09T18:22:19.9194515+08:00","Properties":{}}
+DEBUG 2017-07-09 18:23:24,295 [13   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: dc76bc6a-bc51-437a-84d3-515f1e3c95e7
+WARN  2017-07-09 18:23:29,912 [17   ] Abp.Logging.LogHelper                    - Can not find 'Account' in localization source 'MultiPageProject'!
+WARN  2017-07-09 18:23:30,181 [13   ] Abp.Logging.LogHelper                    - Can not find 'Account' in localization source 'MultiPageProject'!
+DEBUG 2017-07-09 18:23:31,085 [17   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"ae09a326-092c-4a17-9571-21b35d375fcb","IpAddress":"::1","TenantId":1,"UserId":3,"ConnectTime":"2017-07-09T18:23:31.0857295+08:00","Properties":{}}
+DEBUG 2017-07-09 18:23:31,095 [41   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: ae09a326-092c-4a17-9571-21b35d375fcb
+WARN  2017-07-09 18:23:35,348 [19   ] Abp.Logging.LogHelper                    - Can not find 'Account' in localization source 'MultiPageProject'!
+DEBUG 2017-07-09 18:23:35,432 [17   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: ae09a326-092c-4a17-9571-21b35d375fcb
+WARN  2017-07-09 18:23:35,820 [13   ] Abp.Logging.LogHelper                    - Can not find 'Account' in localization source 'MultiPageProject'!
+DEBUG 2017-07-09 18:23:36,689 [36   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"da26cc04-36ce-4e8a-b572-1c01f183d0a5","IpAddress":"::1","TenantId":1,"UserId":3,"ConnectTime":"2017-07-09T18:23:36.6898393+08:00","Properties":{}}
+DEBUG 2017-07-09 18:23:36,722 [36   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: da26cc04-36ce-4e8a-b572-1c01f183d0a5
+WARN  2017-07-09 18:23:37,780 [24   ] Abp.Logging.LogHelper                    - Can not find 'Account' in localization source 'MultiPageProject'!
+DEBUG 2017-07-09 18:23:37,866 [13   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: da26cc04-36ce-4e8a-b572-1c01f183d0a5
+WARN  2017-07-09 18:23:38,113 [19   ] Abp.Logging.LogHelper                    - Can not find 'Account' in localization source 'MultiPageProject'!
+DEBUG 2017-07-09 18:23:38,381 [17   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"160d8da7-f49f-4b6c-ba37-0d21c632bcc4","IpAddress":"::1","TenantId":1,"UserId":3,"ConnectTime":"2017-07-09T18:23:38.3819429+08:00","Properties":{}}
+DEBUG 2017-07-09 18:23:38,396 [24   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 160d8da7-f49f-4b6c-ba37-0d21c632bcc4

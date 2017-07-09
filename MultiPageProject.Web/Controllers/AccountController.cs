@@ -592,10 +592,12 @@ namespace MultiPageProject.Web.Controllers
         public async Task<ActionResult> RolePermissions() {
             var all = _PermissionManager.GetAllPermissions(); // 获得所有的权限
             var allRoles = _roleManager.Roles.ToList(); //所有的角色
-            
-            Role r = new Role() { Name = "Role1" };
+
+            Role r = new Role(null, "Role1", "Role1") { IsDefault = false };
             //r.Permissions.Add(new Abp.Authorization.Roles.RolePermissionSetting() { IsGranted = true, Name = "PermissionSetting" });
             IdentityResult result = await _roleManager.CreateAsync(r);
+            CurrentUnitOfWork.SaveChanges();
+
             Role test = await _roleManager.GetRoleByNameAsync("Role1");
 
             if (result.Succeeded) {
