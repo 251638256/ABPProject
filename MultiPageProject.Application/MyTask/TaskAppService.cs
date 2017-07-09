@@ -15,7 +15,6 @@ using MultiPageProject.Users;
 using MultiPageProject.Users.Dto;
 
 namespace MultiPageProject.MyTask {
-    [AbpAuthorize("Administration")]
     public class TaskAppService : MultiPageProjectAppServiceBase, ITaskAppService {
 
         private readonly IRepository<MyTasks.Task> _taskRepository;

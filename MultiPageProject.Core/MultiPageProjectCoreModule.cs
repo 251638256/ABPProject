@@ -22,9 +22,11 @@ namespace MultiPageProject
             Configuration.Modules.Zero().EntityTypes.Tenant = typeof(Tenant);
             Configuration.Modules.Zero().EntityTypes.Role = typeof(Role);
             Configuration.Modules.Zero().EntityTypes.User = typeof(User);
+            //Configuration.Modules.Zero().EntityTypes.cv
 
             //Remove the following line to disable multi-tenancy.
-            Configuration.MultiTenancy.IsEnabled = MultiPageProjectConsts.MultiTenancyEnabled;
+            //Configuration.MultiTenancy.IsEnabled = MultiPageProjectConsts.MultiTenancyEnabled;
+
 
             //Add/remove localization sources here
             Configuration.Localization.Sources.Add(

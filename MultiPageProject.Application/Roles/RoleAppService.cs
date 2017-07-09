@@ -29,5 +29,9 @@ namespace MultiPageProject.Roles
 
             await _roleManager.SetGrantedPermissionsAsync(role, grantedPermissions);
         }
+
+        public void AddRole() {
+            //_roleManager.a
+        }
     }
 }

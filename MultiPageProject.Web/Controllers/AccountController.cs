@@ -533,6 +533,7 @@ namespace MultiPageProject.Web.Controllers
 
             var roles = _roleManager.Roles.ToList();
             var userRoles = user.Roles.Select(c => c.RoleId);
+            //user.Claims.First().
 
             foreach (var item in roles) {
                 rols.Add(new RoleChecked() { Role = item, Checked = userRoles.Contains(item.Id) });
@@ -568,25 +569,56 @@ namespace MultiPageProject.Web.Controllers
             return RedirectToAction("/");
         }
 
+
+        /// <summary>
+        /// 用户授权
+        /// </summary>
+        /// <returns></returns>
+        [AbpAuthorize]
         public async Task<ActionResult> UserPermissions() {
-            var permissions = _PermissionManager.GetAllPermissions();
-            //
-            //await _roleManager.SetGrantedPermissionsAsync(2, permissions);
-
-            var user = await _userManager.GetUserByIdAsync(3);
-
-            await _userManager.SetGrantedPermissionsAsync(user, permissions);
-
             // 使用用户设置权限
-
-            return Content("看到这句话就是成功了");
-        }
-        
-        public ActionResult RolePermissions() {
-
-            return Content("Real Content");
+            var all = _PermissionManager.GetAllPermissions();
+            var permissions = _PermissionManager.GetAllPermissions().Where(c => c.Name == PermissionNames.A).ToList();
+            var user = await _userManager.GetUserByIdAsync((long)AbpSession.UserId);
+            await _userManager.SetGrantedPermissionsAsync(user, all);
+            return Content("用户授权成功");
         }
 
+        /// <summary>
+        /// 角色授权
+        /// </summary>
+        /// <returns></returns>
+        [AbpAuthorize]
+        public async Task<ActionResult> RolePermissions() {
+            var all = _PermissionManager.GetAllPermissions(); // 获得所有的权限
+            var allRoles = _roleManager.Roles.ToList(); //所有的角色
+            
+            Role r = new Role() { Name = "Role1" };
+            //r.Permissions.Add(new Abp.Authorization.Roles.RolePermissionSetting() { IsGranted = true, Name = "PermissionSetting" });
+            IdentityResult result = await _roleManager.CreateAsync(r);
+            Role test = await _roleManager.GetRoleByNameAsync("Role1");
+
+            if (result.Succeeded) {
+                var roles = _roleManager.Roles.ToList();
+                var user = await _userManager.GetUserByIdAsync((long)AbpSession.UserId);
+                await _userManager.SetRoles(user, new string[] { "Role1" });
+                await _roleManager.SetGrantedPermissionsAsync(r.Id, all);
+            } else {
+                return Content("角色授权失败");
+            }
+            
+            return Content("角色授权成功");
+        }
+
+        [AbpAuthorize(PermissionNames.A)]
+        public ActionResult TestA() {
+            return Content("授权成功 我是权限A");
+        }
+
+        [AbpAuthorize(PermissionNames.B)]
+        public ActionResult TestB() {
+            return Content("授权成功 我是权限B");
+        }
 
         #endregion
     }
